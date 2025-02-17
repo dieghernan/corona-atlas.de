@@ -40,9 +40,9 @@ zutreffenden Informationen und ggfs. regionaler Ausnahmen.
 
 </div>
 
-<script src="https://corona-atlas.de/assets/data/locale_de.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_de.js"></script>
 
-<script src="https://corona-atlas.de/assets/js/map.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
 
 Alle Angaben sind ohne Gewähr und werden automatisch vom Robert Koch
 Institut mehrmals täglich abgerufen. Einen aktuellen vollständigen

@@ -45,8 +45,8 @@ und ggfs. regionaler Ausnahmen.
 
 
 <div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
-<script src="https://corona-atlas.de/assets/data/locale_de.js"></script> 
-<script src="https://corona-atlas.de/assets/js/map.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_de.js"></script> 
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
 
 Alle Angaben sind ohne Gewähr und werden automatisch vom Robert Koch Institut mehrmals täglich abgerufen.
 Einen aktuellen vollständigen Überblick aller internationalen Risikogebiete

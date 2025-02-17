@@ -1,7 +1,7 @@
 # Corona Atlas <img src="assets/img/corona-atlas-icon.png" align="right" width="120"/>
 
 _Visit
-[our website][corona-atlas]
+[our website][https://dieghernan.github.io/corona-atlas.de/]
 or contact us directly
 [via mail](mailto:info@corona-atlas.de)._
 </br></br></br>
@@ -37,4 +37,4 @@ as its Jekyll theme.
 
 ![Time-lapse](/assets/img/corona_atlas_timelapse.gif)
 
-[corona-atlas]: https://corona-atlas.de/
+[corona-atlas]: https://dieghernan.github.io/corona-atlas.de/

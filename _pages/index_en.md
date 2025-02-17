@@ -34,9 +34,9 @@ about that country and its regions regarding traveling to Germany.
 
 </div>
 
-<script src="https://corona-atlas.de/assets/data/locale_en.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_en.js"></script>
 
-<script src="https://corona-atlas.de/assets/js/map.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
 
 All information is directly fetched from the Robert Koch Institut and
 supplied without guarantee. For a complete up-to-date overview on all

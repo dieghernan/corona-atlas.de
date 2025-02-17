@@ -138,7 +138,7 @@ the translation of the site:
 
 <aside class="my-4 small">
   <div class="row d-flex align-items-center mb-2">
-    <img src="https://corona-atlas.de/assets/img/people/emmanuel.jpg" alt="Emmanuel" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
+    <img src="https://dieghernan.github.io/corona-atlas.de/assets/img/people/emmanuel.jpg" alt="Emmanuel" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
       <h3 id="emmanuel">Emmanuel</h3>
     </div>
@@ -158,7 +158,7 @@ the translation of the site:
 </aside>
 <aside class="my-4 small">
   <div class="row d-flex align-items-center mb-2">
-    <img src="https://corona-atlas.de/assets/img/people/natalia.jpg" alt="Natalia" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
+    <img src="https://dieghernan.github.io/corona-atlas.de/assets/img/people/natalia.jpg" alt="Natalia" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
       <h3 id="natalia">Natalia</h3>
     </div>
@@ -178,7 +178,7 @@ the translation of the site:
 </aside>
 <aside class="my-4 small">
   <div class="row d-flex align-items-center mb-2">
-    <img src="https://corona-atlas.de/assets/img/people/ege.jpg" alt="Ege" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
+    <img src="https://dieghernan.github.io/corona-atlas.de/assets/img/people/ege.jpg" alt="Ege" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
       <h3 id="ege">Ege</h3>
     </div>

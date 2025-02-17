@@ -35,8 +35,8 @@ actuel ainsi que celui de ses régions.
 
 
 <div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
-<script src="https://corona-atlas.de/assets/data/locale_fr.js"></script>
-<script src="https://corona-atlas.de/assets/js/map.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_fr.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
 
 Toutes les indications sont données sans garantie car elles sont
 récupérées automatiquement sur la page web de l’institut Robert Koch

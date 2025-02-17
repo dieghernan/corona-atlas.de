@@ -37,8 +37,8 @@ kısıtlamalar hakkında daha fazla bilgi için
 o ülkeye tıklayın.
 
 <div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
-<script src="https://corona-atlas.de/assets/data/locale_tr.js"></script> 
-<script src="https://corona-atlas.de/assets/js/map.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_tr.js"></script> 
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
 
 Tüm bilgiler doğrudan Robert Koch Enstitüsü'nden alınır 
 ve garanti olmaksızın sağlanmaktadır.

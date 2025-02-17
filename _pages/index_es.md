@@ -36,9 +36,9 @@ actual.
 
 </div>
 
-<script src="https://corona-atlas.de/assets/data/locale_es.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_es.js"></script>
 
-<script src="https://corona-atlas.de/assets/js/map.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
 
 Todos los datos se recogen automáticamente de la web del Robert Koch
 Institut, por lo que no puede garantizarse su veracidad. Visita

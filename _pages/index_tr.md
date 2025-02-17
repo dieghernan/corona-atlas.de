@@ -35,9 +35,9 @@ için o ülkeye tıklayın.
 
 </div>
 
-<script src="https://corona-atlas.de/assets/data/locale_tr.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_tr.js"></script>
 
-<script src="https://corona-atlas.de/assets/js/map.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
 
 Tüm bilgiler doğrudan Robert Koch Enstitüsü’nden alınır ve garanti
 olmaksızın sağlanmaktadır. Dünya genelindeki risk alanları hakkında,

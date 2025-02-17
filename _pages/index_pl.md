@@ -35,9 +35,9 @@ możliwością podróży do Niemiec.
 
 </div>
 
-<script src="https://corona-atlas.de/assets/data/locale_pl.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_pl.js"></script>
 
-<script src="https://corona-atlas.de/assets/js/map.js"></script>
+<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
 
 Wszystkie dane zbierane są automatycznie ze strony internetowej
 Instytutu Roberta Kocha, dlatego nie można zagwarantować ich
