@@ -16,6 +16,11 @@ excerpt: |
 leaflet: false
 ---
 
+
+<i class="fas fa-skull-crossbones"></i> **Project discontinued**
+{: .alert .alert-danger .p-3 .mx-2 .mb-3 .lead}
+
+
 April 2021. More than one year has passed since
 this Corona nightmare put all our lives upside down
 and things are only slowly changing

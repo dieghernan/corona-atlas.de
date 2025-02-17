@@ -1,3 +1,5 @@
+#  Project discontinued
+
 # Corona Atlas <img src="assets/img/corona-atlas-icon.png" align="right" width="120"/>
 
 _Visit

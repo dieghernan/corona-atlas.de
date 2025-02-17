@@ -13,6 +13,11 @@ output:
     variant: gfm
 ---
 
+
+<i class="fas fa-skull-crossbones"></i> **Project discontinued**
+{: .alert .alert-danger .p-3 .mx-2 .mb-3 .lead}
+
+
 <!-- Modify _R/index_fr.Rmd file instead -->
 
 <p class="text-right font-weight-bold">
