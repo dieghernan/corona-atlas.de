@@ -3,7 +3,7 @@
 # Corona Atlas <img src="assets/img/corona-atlas-icon.png" align="right" width="120"/>
 
 _Visit
-[our website][https://dieghernan.github.io/corona-atlas.de/]
+[our website](https://dieghernan.github.io/corona-atlas.de/)
 or contact us directly
 [via mail](mailto:info@corona-atlas.de)._
 </br></br></br>
