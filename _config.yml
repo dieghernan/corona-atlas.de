@@ -1,7 +1,7 @@
 remote_theme: dieghernan/chulapa
-repository: dieghernan/RKI-Corona-Atlas
-url: https://corona-atlas.de
-baseurl: ""
+repository: dieghernan/corona-atlas.de
+url: https://dieghernan.github.io
+baseurl: "corona-atlas.de"
 
 # Find errors on this file with http://www.yamllint.com/
 
