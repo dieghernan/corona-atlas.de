@@ -1,12 +1,12 @@
-var locale = {'more_info': 'Daha fazla bilgi', 'risk_level': 'Risk seviyesi', 'risk_labels': {0: 'Risksiz Bölge', 1: 'Virüs çeşidi bölgesi', 2: 'Yüksek riskli bölge', 5: ''}};
+var locale = {'more_info': 'Daha fazla bilgi', 'risk_level': 'Risk seviyesi', 'risk_labels': {0: 'Risksiz Bölge', 1: 'Virüs çeşidi bölgesi', 2: 'Yüksek vaka sayılı bölge', 3: 'Riskli bölge', 4: 'Kısmen riskli bölge', 5: ''}};
 var info_rki = {
  "AFG":{
   "name":"Afganistan",
-  "info":""
+  "info":"21.02.2021'den beri"
  },
  "AGO":{
   "name":"Angola",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "ALB":{
   "name":"Arnavutluk",
@@ -14,15 +14,15 @@ var info_rki = {
  },
  "AND":{
   "name":"Andorra",
-  "info":""
+  "info":"23.05.2021'den beri"
  },
  "ARE":{
   "name":"Birleşik Arap Emirlikleri",
-  "info":""
+  "info":"18.04.2021'den beri"
  },
  "ARG":{
   "name":"Arjantin",
-  "info":""
+  "info":"18.04.2021'den beri"
  },
  "ARM":{
   "name":"Ermenistan",
@@ -46,7 +46,7 @@ var info_rki = {
  },
  "BDI":{
   "name":"Burundi",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "BEL":{
   "name":"Belçika",
@@ -54,15 +54,15 @@ var info_rki = {
  },
  "BEN":{
   "name":"Benin",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "BGD":{
   "name":"Bangladeş",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "BGR":{
   "name":"Bulgaristan",
@@ -70,11 +70,11 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahreyn",
-  "info":""
+  "info":"14.02.2021'den beri"
  },
  "BHS":{
   "name":"Bahamalar",
-  "info":""
+  "info":"25.04.2021'den beri"
  },
  "BIH":{
   "name":"Bosna-Hersek",
@@ -82,19 +82,19 @@ var info_rki = {
  },
  "BLR":{
   "name":"Beyaz Rusya",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "BLZ":{
   "name":"Belize",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "BOL":{
   "name":"Bolivya",
-  "info":""
+  "info":"24.01.2021'den beri"
  },
  "BRA":{
   "name":"Brezilya",
-  "info":""
+  "info":"19.01.2021'den beri"
  },
  "BRB":{
   "name":"Barbados",
@@ -106,15 +106,15 @@ var info_rki = {
  },
  "BTN":{
   "name":"Butan",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "BWA":{
   "name":"Botsvana",
-  "info":""
+  "info":"07.02.2021'den beri"
  },
  "CAF":{
   "name":"Orta Afrika Cumhuriyeti",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "CAN":{
   "name":"Kanada",
@@ -126,7 +126,7 @@ var info_rki = {
  },
  "CHL":{
   "name":"Şili",
-  "info":""
+  "info":"03.04.2021'den beri"
  },
  "CHN":{
   "name":"Çin",
@@ -134,39 +134,39 @@ var info_rki = {
  },
  "CIV":{
   "name":"Fildişi Sahili",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "CMR":{
   "name":"Kamerun",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "COD":{
   "name":"Kongo Demokratik Cumhuriyeti",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "COG":{
   "name":"Kongo",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "COL":{
   "name":"Kolombiya",
-  "info":""
+  "info":"24.01.2021'den beri"
  },
  "COM":{
   "name":"Komorlar",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "CPV":{
   "name":"Verde Burnu",
-  "info":""
+  "info":"20.06.2021'den beri"
  },
  "CRI":{
   "name":"Kosta Rika",
-  "info":""
+  "info":"09.05.2021'den beri"
  },
  "CUB":{
   "name":"Küba",
-  "info":""
+  "info":"28.02.2021'den beri"
  },
  "CYP":{
   "name":"Kıbrıs",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Cibuti",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "DMA":{
   "name":"Dominik",
@@ -190,31 +190,31 @@ var info_rki = {
  },
  "DNK":{
   "name":"Danimarka",
-  "info":""
+  "info":"28.03.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Faroe Adaları<\/li><li>Grönland<\/li><li>Güney Danimarka<\/li><\/ul>"
  },
  "DOM":{
   "name":"Dominik Cumhuriyeti",
-  "info":""
+  "info":"30.05.2021'den beri"
  },
  "DZA":{
   "name":"Cezayir",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "ECU":{
   "name":"Ekvator",
-  "info":""
+  "info":"31.01.2021'den beri"
  },
  "EGY":{
   "name":"Mısır",
-  "info":""
+  "info":"24.01.2021'den beri"
  },
  "ERI":{
   "name":"Eritre",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "ESP":{
   "name":"İspanya",
-  "info":""
+  "info":"14.08.2020'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Endülüs, 14.08.2020'den beri<\/li><li>Bask Bölgesi, 14.08.2020'den beri<\/li><li>Ceuta, 13.06.2021'den beri<\/li><li>La Rioja, 03.04.2021'den beri<\/li><li>Navarra, 31.07.2020'den beri<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonya",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Etiyopya",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "FIN":{
   "name":"Finlandiya",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Fransa",
-  "info":""
+  "info":"23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Kıta Fransası<\/li><li>Korsika<\/li><li>Martinik<\/li><li>Mayotte<\/li><li>Yeni Kaledonya<\/li><li>Polynesien<\/li><li>Saint-Barthélemy<\/li><li>Saint-Pierre ve Miquelon<\/li><li>Wallis ve Futuna<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezya",
@@ -242,35 +242,35 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "GBR":{
   "name":"Birleşik Krallık",
-  "info":""
+  "info":"23.05.2021'den beri"
  },
  "GEO":{
   "name":"Gürcistan",
-  "info":""
+  "info":"13.06.2021'den beri"
  },
  "GHA":{
   "name":"Gana",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "GIN":{
   "name":"Gine",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "GMB":{
   "name":"Gambiya",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "GNB":{
   "name":"Gine-Bissau",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "GNQ":{
   "name":"Ekvatoral Gine",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "GRC":{
   "name":"Yunanistan",
@@ -282,11 +282,11 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "GUY":{
   "name":"Guyana",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "HKG":{
   "name":"Hong Kong",
@@ -294,15 +294,15 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "HRV":{
   "name":"Hırvatistan",
-  "info":""
+  "info":"23.05.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Medimurje, 23.05.2021'den beri<\/li><li>Varazdin, 23.05.2021'den beri<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "HUN":{
   "name":"Macaristan",
@@ -310,23 +310,23 @@ var info_rki = {
  },
  "IDN":{
   "name":"Endonezya",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "IND":{
   "name":"Hindistan",
-  "info":""
+  "info":"26.04.2021'den beri"
  },
  "IRL":{
   "name":"İrlanda",
-  "info":""
+  "info":"21.03.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Border, 21.03.2021'den beri<\/li><li>Dublin, 21.03.2021'den beri<\/li><li>Mid-East, 21.03.2021'den beri<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
-  "info":""
+  "info":"24.01.2021'den beri"
  },
  "IRQ":{
   "name":"Irak",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "ISL":{
   "name":"İzlanda",
@@ -354,15 +354,15 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazakistan",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "KEN":{
   "name":"Kenya",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "KGZ":{
   "name":"Kırgızistan",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "KHM":{
   "name":"Kamboçya",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Sen Kitts ve Nevis",
-  "info":""
+  "info":"20.06.2021'den beri"
  },
  "KOR":{
   "name":"Güney Kore",
@@ -382,7 +382,7 @@ var info_rki = {
  },
  "KWT":{
   "name":"Kuveyt",
-  "info":""
+  "info":"21.03.2021'den beri"
  },
  "LAO":{
   "name":"Laos",
@@ -394,11 +394,11 @@ var info_rki = {
  },
  "LBR":{
   "name":"Liberya",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "LBY":{
   "name":"Libya",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "LCA":{
   "name":"Sen Lucia",
@@ -410,11 +410,11 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":""
+  "info":"13.06.2021'den beri"
  },
  "LSO":{
   "name":"Lesoto",
-  "info":""
+  "info":"31.01.2021'den beri"
  },
  "LTU":{
   "name":"Litvanya",
@@ -422,15 +422,15 @@ var info_rki = {
  },
  "LUX":{
   "name":"Lüksemburg",
-  "info":""
+  "info":"25.09.2020'den beri"
  },
  "LVA":{
   "name":"Latviya",
-  "info":""
+  "info":"11.04.2021'den beri"
  },
  "MAR":{
   "name":"Fas",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "MCO":{
   "name":"Monako",
@@ -442,15 +442,15 @@ var info_rki = {
  },
  "MDG":{
   "name":"Madagaskar",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "MDV":{
   "name":"Maldivler",
-  "info":""
+  "info":"09.05.2021'den beri"
  },
  "MEX":{
   "name":"Meksika",
-  "info":""
+  "info":"13.06.2021'den beri"
  },
  "MHL":{
   "name":"Marşal Adaları",
@@ -462,7 +462,7 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "MLT":{
   "name":"Malta",
@@ -478,15 +478,15 @@ var info_rki = {
  },
  "MNG":{
   "name":"Moğolistan",
-  "info":""
+  "info":"13.06.2021'den beri"
  },
  "MOZ":{
   "name":"Mozambik",
-  "info":""
+  "info":"07.02.2021'den beri"
  },
  "MRT":{
   "name":"Moritanya",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "MUS":{
   "name":"Mauritius",
@@ -494,27 +494,27 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malavi",
-  "info":""
+  "info":"07.02.2021'den beri"
  },
  "MYS":{
   "name":"Malezya",
-  "info":""
+  "info":"13.06.2021'den beri"
  },
  "NAM":{
   "name":"Namibya",
-  "info":""
+  "info":"20.06.2021'den beri"
  },
  "NER":{
   "name":"Nijer",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "NGA":{
   "name":"Nijerya",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "NIC":{
   "name":"Nikaragua",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "NIU":{
   "name":"Nie",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Hollanda",
-  "info":""
+  "info":"30.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Friesland<\/li><li>Groningen<\/li><li>Sint Eustatius ve Saba<\/li><li>Zeeland<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norveç",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":""
+  "info":"16.05.2021'den beri"
  },
  "NRU":{
   "name":"Nauru",
@@ -542,23 +542,23 @@ var info_rki = {
  },
  "OMN":{
   "name":"Umman",
-  "info":""
+  "info":"20.06.2021'den beri"
  },
  "PAK":{
   "name":"Pakistan",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "PAN":{
   "name":"Panama",
-  "info":""
+  "info":"28.02.2021'den beri"
  },
  "PER":{
   "name":"Peru",
-  "info":""
+  "info":"03.04.2021'den beri"
  },
  "PHL":{
   "name":"Filipinler",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "PLW":{
   "name":"Palau",
@@ -566,7 +566,7 @@ var info_rki = {
  },
  "PNG":{
   "name":"Papua Yeni Gine",
-  "info":""
+  "info":"17.06.2020'den beri"
  },
  "POL":{
   "name":"Polonya",
@@ -574,15 +574,15 @@ var info_rki = {
  },
  "PRK":{
   "name":"Kuzey Kore",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "PRT":{
   "name":"Portekiz",
-  "info":""
+  "info":"18.04.2021'den beri. Risk seviyesi aşağıdaki bölgeleri kapsar:<ul><li>Azorlar, 18.04.2021'den beri<\/li><li>Lizbon, 13.06.2021'den beri<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",
-  "info":""
+  "info":"21.03.2021'den beri"
  },
  "PSE":{
   "name":"Filistin",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Katar",
-  "info":""
+  "info":"13.06.2021'den beri"
  },
  "ROU":{
   "name":"Romanya",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RUS":{
   "name":"Rusya Federasyonu",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "RWA":{
   "name":"Ruanda",
@@ -606,15 +606,15 @@ var info_rki = {
  },
  "SAU":{
   "name":"Suudi Arabistan",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "SDN":{
   "name":"Sudan",
-  "info":""
+  "info":"31.01.2021'den beri"
  },
  "SEN":{
   "name":"Senegal",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "SGP":{
   "name":"Singapur",
@@ -626,11 +626,11 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leone",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "SLV":{
   "name":"El Salvador",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "SMR":{
   "name":"San Marino",
@@ -638,7 +638,7 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somali",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "SRB":{
   "name":"Sırbistan",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "SSD":{
   "name":"Güney Sudan",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "STP":{
   "name":"Sao Tome ve Principe",
@@ -654,7 +654,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinam",
-  "info":""
+  "info":"23.05.2021'den beri"
  },
  "SVK":{
   "name":"Slovakya",
@@ -662,31 +662,31 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slovenya",
-  "info":""
+  "info":"23.05.2021'den beri. Aşağıdaki bölgeler dahil edilmemiştir:<ul><li>Goriška<\/li><li>Jugovzhodna Slovenija<\/li><li>Koroška<\/li><li>Pomurska<\/li><li>Savinjska<\/li><li>Zasavska<\/li><\/ul>"
  },
  "SWE":{
   "name":"İsveç",
-  "info":""
+  "info":"06.06.2021'den beri"
  },
  "SWZ":{
   "name":"Esvatini",
-  "info":""
+  "info":"31.01.2021'den beri"
  },
  "SYC":{
   "name":"Seyşeller",
-  "info":""
+  "info":"14.02.2021'den beri"
  },
  "SYR":{
   "name":"Suriye",
-  "info":""
+  "info":"31.01.2021'den beri"
  },
  "TCD":{
   "name":"Çad",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "TGO":{
   "name":"Togo",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "THA":{
   "name":"Tayland",
@@ -694,15 +694,15 @@ var info_rki = {
  },
  "TJK":{
   "name":"Tacikistan",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "TKM":{
   "name":"Türkmenistan",
-  "info":""
+  "info":"17.06.2020'den beri"
  },
  "TLS":{
   "name":"Timor-Leste",
-  "info":""
+  "info":"17.06.2020'den beri"
  },
  "TON":{
   "name":"Tonga",
@@ -710,15 +710,15 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad ve Tobago",
-  "info":""
+  "info":"23.05.2021'den beri"
  },
  "TUN":{
   "name":"Tunus",
-  "info":""
+  "info":"25.04.2021'den beri"
  },
  "TUR":{
   "name":"Türkiye",
-  "info":""
+  "info":"06.06.2021'den beri"
  },
  "TUV":{
   "name":"Tuvalu",
@@ -726,11 +726,11 @@ var info_rki = {
  },
  "TZA":{
   "name":"Tanzanya Birleşik Cumhuriyeti",
-  "info":""
+  "info":"14.03.2021'den beri"
  },
  "UGA":{
   "name":"Uganda",
-  "info":""
+  "info":"20.06.2021'den beri"
  },
  "UKR":{
   "name":"Ukrayna",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "URY":{
   "name":"Uruguay",
-  "info":""
+  "info":"06.06.2021'den beri"
  },
  "USA":{
   "name":"Birleşik Devletler",
@@ -746,7 +746,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Özbekistan",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "VAT":{
   "name":"Vatikan",
@@ -758,7 +758,7 @@ var info_rki = {
  },
  "VEN":{
   "name":"Venezuella",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "VNM":{
   "name":"Vietnam",
@@ -778,18 +778,18 @@ var info_rki = {
  },
  "YEM":{
   "name":"Yemen",
-  "info":""
+  "info":"15.06.2020'den beri"
  },
  "ZAF":{
   "name":"Güney Afrika",
-  "info":""
+  "info":"13.01.2021'den beri"
  },
  "ZMB":{
   "name":"Zambiya",
-  "info":""
+  "info":"07.02.2021'den beri"
  },
  "ZWE":{
   "name":"Zimbabve",
-  "info":""
+  "info":"07.02.2021'den beri"
  }
 };

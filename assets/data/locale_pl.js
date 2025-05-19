@@ -1,12 +1,12 @@
-var locale = {'more_info': 'Więcej informacji', 'risk_level': 'Poziom ryzyka', 'risk_labels': {0: 'Nie jest to obszar ryzyka', 1: 'Obszar z niebezpiecznymi mutacjami', 2: 'Obszar wysokiego ryzyka', 5: ''}};
+var locale = {'more_info': 'Więcej informacji', 'risk_level': 'Poziom ryzyka', 'risk_labels': {0: 'Nie jest to obszar ryzyka', 1: 'Obszar z niebezpiecznymi mutacjami', 2: 'Obszar o wysokiej częstości występowania', 3: 'Obszar ryzyka', 4: 'Obszar ryzyka (częściowy)', 5: ''}};
 var info_rki = {
  "AFG":{
   "name":"Afganistan",
-  "info":""
+  "info":"od 21.02.2021"
  },
  "AGO":{
   "name":"Angola",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "ALB":{
   "name":"Albania",
@@ -14,15 +14,15 @@ var info_rki = {
  },
  "AND":{
   "name":"Andora",
-  "info":""
+  "info":"od 23.05.2021"
  },
  "ARE":{
   "name":"Zjednoczone Emiraty Arabskie",
-  "info":""
+  "info":"od 18.04.2021"
  },
  "ARG":{
   "name":"Argentyna",
-  "info":""
+  "info":"od 18.04.2021"
  },
  "ARM":{
   "name":"Armenia",
@@ -46,7 +46,7 @@ var info_rki = {
  },
  "BDI":{
   "name":"Burundi",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "BEL":{
   "name":"Belgia",
@@ -54,15 +54,15 @@ var info_rki = {
  },
  "BEN":{
   "name":"Benin",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "BGD":{
   "name":"Bangladesz",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "BGR":{
   "name":"Bułgaria",
@@ -70,11 +70,11 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahrajn",
-  "info":""
+  "info":"od 14.02.2021"
  },
  "BHS":{
   "name":"Bahamy",
-  "info":""
+  "info":"od 25.04.2021"
  },
  "BIH":{
   "name":"Bośnia i Hercegowina",
@@ -82,19 +82,19 @@ var info_rki = {
  },
  "BLR":{
   "name":"Białoruś",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "BLZ":{
   "name":"Belize",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "BOL":{
   "name":"Boliwia",
-  "info":""
+  "info":"od 24.01.2021"
  },
  "BRA":{
   "name":"Brazylia",
-  "info":""
+  "info":"od 19.01.2021"
  },
  "BRB":{
   "name":"Barbados",
@@ -106,15 +106,15 @@ var info_rki = {
  },
  "BTN":{
   "name":"Bhutan",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "BWA":{
   "name":"Botswana",
-  "info":""
+  "info":"od 07.02.2021"
  },
  "CAF":{
   "name":"Republika Środkowoafrykańska",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "CAN":{
   "name":"Kanada",
@@ -126,7 +126,7 @@ var info_rki = {
  },
  "CHL":{
   "name":"Chile",
-  "info":""
+  "info":"od 03.04.2021"
  },
  "CHN":{
   "name":"Chiny",
@@ -134,39 +134,39 @@ var info_rki = {
  },
  "CIV":{
   "name":"Wybrzeże Kości Słoniowej",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "CMR":{
   "name":"Kamerun",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "COD":{
   "name":"Demokratyczna Republika Konga",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "COG":{
   "name":"Kongo",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "COL":{
   "name":"Kolumbia",
-  "info":""
+  "info":"od 24.01.2021"
  },
  "COM":{
   "name":"Komory",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "CPV":{
   "name":"Republika Zielonego Przylądka",
-  "info":""
+  "info":"od 20.06.2021"
  },
  "CRI":{
   "name":"Kostaryka",
-  "info":""
+  "info":"od 09.05.2021"
  },
  "CUB":{
   "name":"Kuba",
-  "info":""
+  "info":"od 28.02.2021"
  },
  "CYP":{
   "name":"Cypr",
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Dżibuti",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "DMA":{
   "name":"Dominika",
@@ -190,31 +190,31 @@ var info_rki = {
  },
  "DNK":{
   "name":"Dania",
-  "info":""
+  "info":"od 28.03.2021. Z wyjątkiem następujących regionów:<ul><li>Wyspy Owcze<\/li><li>Grenlandia<\/li><li>Południowa Dania<\/li><\/ul>"
  },
  "DOM":{
   "name":"Dominikana",
-  "info":""
+  "info":"od 30.05.2021"
  },
  "DZA":{
   "name":"Algieria",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "ECU":{
   "name":"Ekwador",
-  "info":""
+  "info":"od 31.01.2021"
  },
  "EGY":{
   "name":"Egipt",
-  "info":""
+  "info":"od 24.01.2021"
  },
  "ERI":{
   "name":"Erytrea",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "ESP":{
   "name":"Hiszpania",
-  "info":""
+  "info":"od 14.08.2020. Poziom ryzyka dotyczy następujących regionów:<ul><li>Andaluzja, od 14.08.2020<\/li><li>Kraj Basków, od 14.08.2020<\/li><li>Ceuta, od 13.06.2021<\/li><li>La Rioja, od 03.04.2021<\/li><li>Nawarra, od 31.07.2020<\/li><\/ul>"
  },
  "EST":{
   "name":"Estonia",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Etiopia",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "FIN":{
   "name":"Finlandia",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Francja",
-  "info":""
+  "info":"od 23.05.2021. Z wyjątkiem następujących regionów:<ul><li>Francja kontynentalna<\/li><li>Korsyka<\/li><li>Martynika<\/li><li>Mayotte<\/li><li>Nowa Kaledonia<\/li><li>Polynesien<\/li><li>Saint-Barthélemy<\/li><li>Saint-Pierre i Miquelon<\/li><li>Wallis i Futuna<\/li><\/ul>"
  },
  "FSM":{
   "name":"Mikronezja",
@@ -242,35 +242,35 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabon",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "GBR":{
   "name":"Wielka Brytania",
-  "info":""
+  "info":"od 23.05.2021"
  },
  "GEO":{
   "name":"Gruzja",
-  "info":""
+  "info":"od 13.06.2021"
  },
  "GHA":{
   "name":"Ghana",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "GIN":{
   "name":"Gwinea",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "GMB":{
   "name":"Gambia",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "GNB":{
   "name":"Gwinea Bissau",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "GNQ":{
   "name":"Gwinea Równikowa",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "GRC":{
   "name":"Grecja",
@@ -282,11 +282,11 @@ var info_rki = {
  },
  "GTM":{
   "name":"Gwatemala",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "GUY":{
   "name":"Gujana",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "HKG":{
   "name":"Hongkong",
@@ -294,15 +294,15 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "HRV":{
   "name":"Chorwacja",
-  "info":""
+  "info":"od 23.05.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Medimurje, od 23.05.2021<\/li><li>Varazdin, od 23.05.2021<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "HUN":{
   "name":"Węgry",
@@ -310,23 +310,23 @@ var info_rki = {
  },
  "IDN":{
   "name":"Indonezja",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "IND":{
   "name":"Indie",
-  "info":""
+  "info":"od 26.04.2021"
  },
  "IRL":{
   "name":"Irlandia",
-  "info":""
+  "info":"od 21.03.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Border, od 21.03.2021<\/li><li>Dublin, od 21.03.2021<\/li><li>Mid-East, od 21.03.2021<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
-  "info":""
+  "info":"od 24.01.2021"
  },
  "IRQ":{
   "name":"Irak",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "ISL":{
   "name":"Islandia",
@@ -354,15 +354,15 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kazachstan",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "KEN":{
   "name":"Kenia",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "KGZ":{
   "name":"Kirgistan",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "KHM":{
   "name":"Kambodża",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"Saint Kitts i Nevis",
-  "info":""
+  "info":"od 20.06.2021"
  },
  "KOR":{
   "name":"Korea Południowa",
@@ -382,7 +382,7 @@ var info_rki = {
  },
  "KWT":{
   "name":"Kuwejt",
-  "info":""
+  "info":"od 21.03.2021"
  },
  "LAO":{
   "name":"Laos",
@@ -394,11 +394,11 @@ var info_rki = {
  },
  "LBR":{
   "name":"Liberia",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "LBY":{
   "name":"Libia",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "LCA":{
   "name":"Saint Lucia",
@@ -410,11 +410,11 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":""
+  "info":"od 13.06.2021"
  },
  "LSO":{
   "name":"Lesoto",
-  "info":""
+  "info":"od 31.01.2021"
  },
  "LTU":{
   "name":"Litwa",
@@ -422,15 +422,15 @@ var info_rki = {
  },
  "LUX":{
   "name":"Luksemburg",
-  "info":""
+  "info":"od 25.09.2020"
  },
  "LVA":{
   "name":"Łotwa",
-  "info":""
+  "info":"od 11.04.2021"
  },
  "MAR":{
   "name":"Maroko",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "MCO":{
   "name":"Monako",
@@ -442,15 +442,15 @@ var info_rki = {
  },
  "MDG":{
   "name":"Madagaskar",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "MDV":{
   "name":"Malediwy",
-  "info":""
+  "info":"od 09.05.2021"
  },
  "MEX":{
   "name":"Meksyk",
-  "info":""
+  "info":"od 13.06.2021"
  },
  "MHL":{
   "name":"Wyspy Marshalla",
@@ -462,7 +462,7 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "MLT":{
   "name":"Malta",
@@ -478,15 +478,15 @@ var info_rki = {
  },
  "MNG":{
   "name":"Mongolia",
-  "info":""
+  "info":"od 13.06.2021"
  },
  "MOZ":{
   "name":"Mozambik",
-  "info":""
+  "info":"od 07.02.2021"
  },
  "MRT":{
   "name":"Mauretania",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "MUS":{
   "name":"Mauritius",
@@ -494,27 +494,27 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":""
+  "info":"od 07.02.2021"
  },
  "MYS":{
   "name":"Malezja",
-  "info":""
+  "info":"od 13.06.2021"
  },
  "NAM":{
   "name":"Namibia",
-  "info":""
+  "info":"od 20.06.2021"
  },
  "NER":{
   "name":"Niger",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "NGA":{
   "name":"Nigeria",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "NIC":{
   "name":"Nikaragua",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "NIU":{
   "name":"Niue",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Holandia",
-  "info":""
+  "info":"od 30.05.2021. Z wyjątkiem następujących regionów:<ul><li>Bonaire<\/li><li>Curaçao<\/li><li>Fryzja<\/li><li>Groningen<\/li><li>Sint Eustatius i Saba<\/li><li>Zelandia<\/li><\/ul>"
  },
  "NOR":{
   "name":"Norwegia",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":""
+  "info":"od 16.05.2021"
  },
  "NRU":{
   "name":"Nauru",
@@ -542,23 +542,23 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":""
+  "info":"od 20.06.2021"
  },
  "PAK":{
   "name":"Pakistan",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "PAN":{
   "name":"Panama",
-  "info":""
+  "info":"od 28.02.2021"
  },
  "PER":{
   "name":"Peru",
-  "info":""
+  "info":"od 03.04.2021"
  },
  "PHL":{
   "name":"Filipiny",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "PLW":{
   "name":"Palau",
@@ -566,7 +566,7 @@ var info_rki = {
  },
  "PNG":{
   "name":"Papua-Nowa Gwinea",
-  "info":""
+  "info":"od 17.06.2020"
  },
  "POL":{
   "name":"Polska",
@@ -574,15 +574,15 @@ var info_rki = {
  },
  "PRK":{
   "name":"Korea Północna",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "PRT":{
   "name":"Portugalia",
-  "info":""
+  "info":"od 18.04.2021. Poziom ryzyka dotyczy następujących regionów:<ul><li>Azores, od 18.04.2021<\/li><li>Lizbona, od 13.06.2021<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paragwaj",
-  "info":""
+  "info":"od 21.03.2021"
  },
  "PSE":{
   "name":"Palestyna",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Katar",
-  "info":""
+  "info":"od 13.06.2021"
  },
  "ROU":{
   "name":"Rumunia",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RUS":{
   "name":"Federacja Rosyjska",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "RWA":{
   "name":"Ruanda",
@@ -606,15 +606,15 @@ var info_rki = {
  },
  "SAU":{
   "name":"Arabia Saudyjska",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "SDN":{
   "name":"Sudan",
-  "info":""
+  "info":"od 31.01.2021"
  },
  "SEN":{
   "name":"Senegal",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "SGP":{
   "name":"Singapur",
@@ -626,11 +626,11 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leone",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "SLV":{
   "name":"Salwador",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "SMR":{
   "name":"San Marino",
@@ -638,7 +638,7 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somalia",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "SRB":{
   "name":"Serbia",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "SSD":{
   "name":"Sudan Południowy",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "STP":{
   "name":"Wyspy Świętego Tomasza i Książęca",
@@ -654,7 +654,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinam",
-  "info":""
+  "info":"od 23.05.2021"
  },
  "SVK":{
   "name":"Słowacja",
@@ -662,31 +662,31 @@ var info_rki = {
  },
  "SVN":{
   "name":"Słowenia",
-  "info":""
+  "info":"od 23.05.2021. Z wyjątkiem następujących regionów:<ul><li>Goriška<\/li><li>Jugovzhodna Slovenija<\/li><li>Koroška<\/li><li>Pomurska<\/li><li>Savinjska<\/li><li>Zasavska<\/li><\/ul>"
  },
  "SWE":{
   "name":"Szwecja",
-  "info":""
+  "info":"od 06.06.2021"
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":""
+  "info":"od 31.01.2021"
  },
  "SYC":{
   "name":"Seszele",
-  "info":""
+  "info":"od 14.02.2021"
  },
  "SYR":{
   "name":"Syria",
-  "info":""
+  "info":"od 31.01.2021"
  },
  "TCD":{
   "name":"Czad",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "TGO":{
   "name":"Togo",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "THA":{
   "name":"Tajlandia",
@@ -694,15 +694,15 @@ var info_rki = {
  },
  "TJK":{
   "name":"Tadżykistan",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "TKM":{
   "name":"Turkmenistan",
-  "info":""
+  "info":"od 17.06.2020"
  },
  "TLS":{
   "name":"Timor Wschodni",
-  "info":""
+  "info":"od 17.06.2020"
  },
  "TON":{
   "name":"Tonga",
@@ -710,15 +710,15 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trynidad i Tobago",
-  "info":""
+  "info":"od 23.05.2021"
  },
  "TUN":{
   "name":"Tunezja",
-  "info":""
+  "info":"od 25.04.2021"
  },
  "TUR":{
   "name":"Turcja",
-  "info":""
+  "info":"od 06.06.2021"
  },
  "TUV":{
   "name":"Tuvalu",
@@ -726,11 +726,11 @@ var info_rki = {
  },
  "TZA":{
   "name":"Zjednoczona Republika Tanzanii",
-  "info":""
+  "info":"od 14.03.2021"
  },
  "UGA":{
   "name":"Uganda",
-  "info":""
+  "info":"od 20.06.2021"
  },
  "UKR":{
   "name":"Ukraina",
@@ -738,7 +738,7 @@ var info_rki = {
  },
  "URY":{
   "name":"Urugwaj",
-  "info":""
+  "info":"od 06.06.2021"
  },
  "USA":{
   "name":"Stany Zjednoczone",
@@ -746,7 +746,7 @@ var info_rki = {
  },
  "UZB":{
   "name":"Uzbekistan",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "VAT":{
   "name":"Watykan",
@@ -758,7 +758,7 @@ var info_rki = {
  },
  "VEN":{
   "name":"Wenezuela",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "VNM":{
   "name":"Vietnam",
@@ -778,18 +778,18 @@ var info_rki = {
  },
  "YEM":{
   "name":"Jemen",
-  "info":""
+  "info":"od 15.06.2020"
  },
  "ZAF":{
   "name":"Republika Południowej Afryki",
-  "info":""
+  "info":"od 13.01.2021"
  },
  "ZMB":{
   "name":"Zambia",
-  "info":""
+  "info":"od 07.02.2021"
  },
  "ZWE":{
   "name":"Zimbabwe",
-  "info":""
+  "info":"od 07.02.2021"
  }
 };

@@ -151,8 +151,8 @@ the translation of the site:
   <div class="row mb-2 mb-lg-0">
     <div class="col text-lg-center">
       <address class="d-inline d-lg-block mr-2 mx-lg-auto mb-lg-2 small chulapa-links-hover-only">
-        <a class="pr-lg-0" href="https://www.google.com/maps/search/?api=1&amp;query=Berlin%2C+Germany">
-        <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>Berlin, Germany</a>
+        <a class="pr-lg-0" href="https://www.google.com/maps/search/?api=1&amp;query=NDjamena%2C+Chad">
+        <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>N'Djamena, Chad</a>
       </address>
       <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
         <a class="mr-2 mx-lg-1" href="https://www.linkedin.com/in/emmanuel-de-bourmont/"><i class="fab fa-linkedin fa-lg"></i></a>
@@ -175,7 +175,7 @@ the translation of the site:
         <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>Wrocław, Poland</a>
       </address>
       <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
-        <a class="mr-2 mx-lg-1" href="https://www.instagram.com/natalia.jedlikowska/"><i class="fab fa-instagram fa-lg"></i></a>
+        <a class="mr-2 mx-lg-1" href="https://www.instagram.com/hiszpanski.cafecito/"><i class="fab fa-instagram fa-lg"></i></a>
       </div>
       <img class="d-inline d-lg-block mt-lg-2" src="https://flagcdn.com/16x12/pl.png" srcset="https://flagcdn.com/32x24/pl.png 2x, https://flagcdn.com/48x36/pl.png 3x" width="16" height="12" alt="Poland">
     </div>
