@@ -40,21 +40,39 @@
         "@type": "Person",
         "@id": "https://dieghernan.github.io/corona-atlas.de/about#emmanuel",
         "name": "Emmanuel de Bourmont",
-        "sameAs": "https://www.linkedin.com/in/emmanuel-de-bourmont/"
+        "sameAs": "https://www.linkedin.com/in/emmanuel-de-bourmont/",
+        "givenName": "Emmanuel",
+        "familyName": "de Bourmont",
+        "url": "https://www.linkedin.com/in/emmanuel-de-bourmont/",
+        "image": "https://dieghernan.github.io/corona-atlas.de/assets/img/people/emmanuel.jpg",
+        "description": "Contributor to the site's translations."
       },
       {
         "@type": "Person",
         "@id": "https://dieghernan.github.io/corona-atlas.de/about#natalia",
-        "name": "Natalia",
-        "sameAs": "https://www.instagram.com/hiszpanski.cafecito/"
+        "name": "Natalia Jedlikowska",
+        "sameAs": "https://www.instagram.com/hiszpanski.cafecito/",
+        "givenName": "Natalia",
+        "familyName": "Jedlikowska",
+        "url": "https://www.instagram.com/hiszpanski.cafecito/",
+        "image": "https://dieghernan.github.io/corona-atlas.de/assets/img/people/natalia.jpg",
+        "description": "Contributor to the site's translations."
       },
       {
         "@type": "Person",
         "name": "Ege Korkan",
         "sameAs": [
           "https://orcid.org/0000-0003-4910-4962",
-          "https://github.com/egekorkan"
-        ]
+          "https://github.com/egekorkan",
+          "https://www.linkedin.com/in/ege-korkan/",
+          "https://twitter.com/egekorkan/"
+        ],
+        "@id": "https://orcid.org/0000-0003-4910-4962",
+        "givenName": "Ege",
+        "familyName": "Korkan",
+        "url": "https://egekorkan.com/",
+        "image": "https://dieghernan.github.io/corona-atlas.de/assets/img/people/ege.jpg",
+        "description": "Contributor to the site's translations."
       }
     ],
     "keywords": [

@@ -49,3 +49,20 @@ GitHub; publishing the historical site does not require running them.
 Keep translated page metadata in `_pages/index*.md` synchronized with its
 source in `_R/index*.Rmd`. The disabled R pipeline still generates the old
 `og_corona_atlas.png`; it does not overwrite the new sharing images.
+
+## Contributor identity sources
+
+Contributor names and profile links in `_data/structured_data.json` follow
+About and the public profiles linked from it. Checked November 3, 2026.
+
+- Emmanuel de Bourmont: the [LinkedIn profile](https://www.linkedin.com/in/emmanuel-de-bourmont/)
+  linked from About. Other people with the same name were excluded.
+- Natalia Jedlikowska: [commit b507c0b](https://github.com/dieghernan/corona-atlas.de/commit/b507c0ba42ead1e234c82728ac3f3e086d962799)
+  replaces her original `natalia.jedlikowska` Instagram link with
+  `hiszpanski.cafecito`, establishing continuity between those profiles.
+- Ege Korkan: his [GitHub profile](https://github.com/egekorkan) links his
+  personal website, LinkedIn and ORCID 0000-0003-4910-4962. His repository
+  commits also document the Turkish translation.
+
+No verified ORCID was found for Emmanuel or Natalia. Current employers,
+private contact details and unverified profile matches are not imported.

@@ -137,7 +137,7 @@ the translation of the site:
   <div class="row d-flex align-items-center flex-lg-column mb-2">
     <img src="https://dieghernan.github.io/corona-atlas.de/assets/img/people/emmanuel.jpg" alt="Emmanuel" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
-      <h3 id="emmanuel">Emmanuel</h3>
+      <h3 id="emmanuel">Emmanuel de Bourmont</h3>
     </div>
   </div>
   <div class="row mb-2 mb-lg-0">
@@ -157,7 +157,7 @@ the translation of the site:
   <div class="row d-flex align-items-center flex-lg-column mb-2">
     <img src="https://dieghernan.github.io/corona-atlas.de/assets/img/people/natalia.jpg" alt="Natalia" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
-      <h3 id="natalia">Natalia</h3>
+      <h3 id="natalia">Natalia Jedlikowska</h3>
     </div>
   </div>
   <div class="row mb-2 mb-lg-0">
@@ -177,7 +177,7 @@ the translation of the site:
   <div class="row d-flex align-items-center flex-lg-column mb-2">
     <img src="https://dieghernan.github.io/corona-atlas.de/assets/img/people/ege.jpg" alt="Ege" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
-      <h3 id="ege">Ege</h3>
+      <h3 id="ege">Ege Korkan</h3>
     </div>
   </div>
   <div class="row mb-2 mb-lg-0">
@@ -187,6 +187,8 @@ the translation of the site:
         <i class="fas fa-map-marker-alt fa-lg mr-1" aria-hidden="true"></i>Munich, Germany</a>
       </address>
       <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
+        <a class="mr-2 mx-lg-1" href="https://egekorkan.com/" aria-label="Ege Korkan website"><i class="fas fa-globe" aria-hidden="true"></i></a>
+        <a class="mr-2 mx-lg-1" href="https://www.linkedin.com/in/ege-korkan/" aria-label="Ege Korkan on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
         <a class="mr-2 mx-lg-1" href="https://github.com/egekorkan/"><i class="fab fa-github fa-lg"></i></a>
         <a class="mr-2 mx-lg-1" href="https://orcid.org/0000-0003-4910-4962" aria-label="ORCID"><i class="fab fa-orcid" aria-hidden="true"></i></a>
         <a class="mr-2 mx-lg-1" href="https://twitter.com/egekorkan/"><i class="fab fa-twitter fa-lg"></i></a>
