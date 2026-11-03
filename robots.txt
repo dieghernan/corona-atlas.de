@@ -1,1 +1,1 @@
-Sitemap: https://corona-atlas.de/sitemap.xml
+Sitemap: https://dieghernan.github.io/corona-atlas.de/sitemap.xml

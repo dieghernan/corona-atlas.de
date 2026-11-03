@@ -1,12 +1,12 @@
-var locale = {'more_info': 'Mehr Info', 'risk_level': 'Risikoeinstufung', 'risk_labels': {0: 'Kein Risikogebiet', 1: 'Virusvarianten-Gebiet', 2: 'Hochrisikogebiet', 5: ''}};
+var locale = {'more_info': 'Mehr Info', 'risk_level': 'Risikoeinstufung', 'risk_labels': {0: 'Kein Risikogebiet', 1: 'Virusvarianten-Gebiet', 2: 'Hochinzidenzgebiet', 3: 'Risikogebiet', 4: 'Teilweise Risikogebiet', 5: ''}};
 var info_rki = {
  "AFG":{
   "name":"Afghanistan",
-  "info":""
+  "info":"seit 21. Februar 2021"
  },
  "AGO":{
   "name":"Angola",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "ALB":{
   "name":"Albanien",
@@ -14,15 +14,15 @@ var info_rki = {
  },
  "AND":{
   "name":"Andorra",
-  "info":""
+  "info":"seit 23. Mai 2021"
  },
  "ARE":{
   "name":"Vereinigte Arabische Emirate",
-  "info":""
+  "info":"seit 18. April 2021"
  },
  "ARG":{
   "name":"Argentinien",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 18. April 2021"
  },
  "ARM":{
   "name":"Armenien",
@@ -46,7 +46,7 @@ var info_rki = {
  },
  "BDI":{
   "name":"Burundi",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "BEL":{
   "name":"Belgien",
@@ -54,15 +54,15 @@ var info_rki = {
  },
  "BEN":{
   "name":"Benin",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "BFA":{
   "name":"Burkina Faso",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "BGD":{
   "name":"Bangladesch",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "BGR":{
   "name":"Bulgarien",
@@ -70,11 +70,11 @@ var info_rki = {
  },
  "BHR":{
   "name":"Bahrain",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 14. Februar 2021"
  },
  "BHS":{
   "name":"Bahamas",
-  "info":""
+  "info":"seit 25. April 2021"
  },
  "BIH":{
   "name":"Bosnien und Herzegowina",
@@ -82,39 +82,39 @@ var info_rki = {
  },
  "BLR":{
   "name":"Belarus",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "BLZ":{
   "name":"Belize",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "BOL":{
   "name":"Bolivien",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 24. Januar 2021"
  },
  "BRA":{
   "name":"Brasilien",
-  "info":""
+  "info":"Virusvariantengebiet seit 19. Januar 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  },
  "BRB":{
   "name":"Barbados",
   "info":""
  },
  "BRN":{
-  "name":"Brunei Darussalam",
+  "name":"Brunei",
   "info":""
  },
  "BTN":{
   "name":"Bhutan",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "BWA":{
   "name":"Botsuana",
-  "info":""
+  "info":"Virusvariantengebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 22. November 2020 einfaches Risikogebiet"
  },
  "CAF":{
   "name":"Zentralafrikanische Republik",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "CAN":{
   "name":"Kanada",
@@ -126,7 +126,7 @@ var info_rki = {
  },
  "CHL":{
   "name":"Chile",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 3. April 2021"
  },
  "CHN":{
   "name":"China",
@@ -134,46 +134,46 @@ var info_rki = {
  },
  "CIV":{
   "name":"Côte d'Ivoire",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "CMR":{
   "name":"Kamerun",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "COD":{
   "name":"Kongo DR",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "COG":{
-  "name":"Kongo",
-  "info":""
+  "name":"Kongo Rep",
+  "info":"seit 15. Juni 2020"
  },
  "COL":{
   "name":"Kolumbien",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 24. Januar 2021"
  },
  "COM":{
   "name":"Komoren",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "CPV":{
   "name":"Cabo Verde",
-  "info":""
+  "info":"seit 20. Juni 2021; Hochinzidenzgebiet vom 25. April 2021 – 19. Juni 2021"
  },
  "CRI":{
   "name":"Costa Rica",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 9. Mai 2021"
  },
  "CUB":{
   "name":"Kuba",
-  "info":""
+  "info":"seit 28. Februar 2021"
  },
  "CYP":{
   "name":"Zypern",
   "info":""
  },
  "CZE":{
-  "name":"Tschechische Republik",
+  "name":"Tschechien",
   "info":""
  },
  "DEU":{
@@ -182,7 +182,7 @@ var info_rki = {
  },
  "DJI":{
   "name":"Dschibuti",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "DMA":{
   "name":"Dominica",
@@ -190,31 +190,31 @@ var info_rki = {
  },
  "DNK":{
   "name":"Dänemark",
-  "info":""
+  "info":"– das gesamte Land (seit 28. März 2021); ausgenommen sind Süddänemark, die Färöer, und Grönland"
  },
  "DOM":{
   "name":"Dominikanische Republik",
-  "info":""
+  "info":"seit 30. Mai 2021"
  },
  "DZA":{
   "name":"Algerien",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "ECU":{
   "name":"Ecuador",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 31. Januar 2021"
  },
  "EGY":{
   "name":"Ägypten",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 24. Januar 2021"
  },
  "ERI":{
   "name":"Eritrea",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "ESP":{
   "name":"Spanien",
-  "info":""
+  "info":"– die folgenden autonomen Gemeinschaften und Städte gelten derzeit als einfache Risikogebiete:<ul><li>Andalusien (seit 14. August 2020)<\/li><li>Navarra (seit 31. Juli 2020)<\/li><li>Baskenland (seit 14. August 2020)<\/li><li>La Rioja (seit 3. April. 2021)<\/li><li>Ceuta (seit 13. Juni 2021)<\/li><\/ul>"
  },
  "EST":{
   "name":"Estland",
@@ -222,7 +222,7 @@ var info_rki = {
  },
  "ETH":{
   "name":"Äthiopien",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "FIN":{
   "name":"Finnland",
@@ -234,7 +234,7 @@ var info_rki = {
  },
  "FRA":{
   "name":"Frankreich",
-  "info":""
+  "info":"(seit 23. Mai 2021), ausgenommen ist gesamt Kontinentalfrankreich, Korsika sowie die französischen Übersee-Departments Martinique, Mayotte, Saint-Pierre und Miquelon, Wallis und Futuna, Französisch-Polynesien, Neukaledonien und Saint-Barthélemy (seit 6. Juni 2021)"
  },
  "FSM":{
   "name":"Mikronesien",
@@ -242,35 +242,35 @@ var info_rki = {
  },
  "GAB":{
   "name":"Gabun",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "GBR":{
   "name":"Vereinigtes Königreich",
-  "info":""
+  "info":"Virusvariantengebiet seit 23. Mai 2021, seit 16. Mai 2021 bereits als einfaches Risikogebiet ausgewiesen"
  },
  "GEO":{
   "name":"Georgien",
-  "info":""
+  "info":"seit 13. Juni 2021; Hochinzidenzgebiet vom 9. Mai 2021 – 12. Juni 2021"
  },
  "GHA":{
   "name":"Ghana",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "GIN":{
   "name":"Guinea",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "GMB":{
   "name":"Gambia",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "GNB":{
   "name":"Guinea-Bissau",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "GNQ":{
   "name":"Äquatorialguinea",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "GRC":{
   "name":"Griechenland",
@@ -282,11 +282,11 @@ var info_rki = {
  },
  "GTM":{
   "name":"Guatemala",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "GUY":{
   "name":"Guyana",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "HKG":{
   "name":"Hongkong",
@@ -294,15 +294,15 @@ var info_rki = {
  },
  "HND":{
   "name":"Honduras",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "HRV":{
   "name":"Kroatien",
-  "info":""
+  "info":"(seit 23. Mai 2021), die folgenden Gespanschaften gelten als einfache Risikogebiete:<ul><li>Medimurje (seit 23. Mai 2021)<\/li><li>Varazdin (seit 23. Mai 2021)<\/li><\/ul>"
  },
  "HTI":{
   "name":"Haiti",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "HUN":{
   "name":"Ungarn",
@@ -310,23 +310,23 @@ var info_rki = {
  },
  "IDN":{
   "name":"Indonesien",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "IND":{
   "name":"Indien",
-  "info":""
+  "info":"Virusvariantengebiet seit 26. April 2021; Hochinzidenzgebiet am 25. April 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  },
  "IRL":{
   "name":"Irland",
-  "info":""
+  "info":"(seit 21. März 2021), die folgenden Regionen gelten derzeit als einfache Risikogebiete<ul><li>Border (seit 21. März 2021)<\/li><li>Dublin (seit 21. März 2021)<\/li><li>Mid-East (seit 21. März 2021)<\/li><\/ul>"
  },
  "IRN":{
   "name":"Iran",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 24. Januar 2021"
  },
  "IRQ":{
   "name":"Irak",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "ISL":{
   "name":"Island",
@@ -354,15 +354,15 @@ var info_rki = {
  },
  "KAZ":{
   "name":"Kasachstan",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "KEN":{
   "name":"Kenia",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "KGZ":{
   "name":"Kirgisistan",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "KHM":{
   "name":"Kambodscha",
@@ -374,7 +374,7 @@ var info_rki = {
  },
  "KNA":{
   "name":"St. Kitts und Nevis",
-  "info":""
+  "info":"seit 20. Juni 2021"
  },
  "KOR":{
   "name":"Südkorea",
@@ -382,7 +382,7 @@ var info_rki = {
  },
  "KWT":{
   "name":"Kuwait",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 21. März 2021"
  },
  "LAO":{
   "name":"Laos",
@@ -394,11 +394,11 @@ var info_rki = {
  },
  "LBR":{
   "name":"Liberia",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "LBY":{
   "name":"Libyen",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "LCA":{
   "name":"St. Lucia",
@@ -410,11 +410,11 @@ var info_rki = {
  },
  "LKA":{
   "name":"Sri Lanka",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 16. Mai 2021 als einfaches Risikogebiet ausgewiesen"
  },
  "LSO":{
   "name":"Lesotho",
-  "info":""
+  "info":"Virusvariantengebiet seit 31. Januar 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  },
  "LTU":{
   "name":"Litauen",
@@ -422,15 +422,15 @@ var info_rki = {
  },
  "LUX":{
   "name":"Luxemburg",
-  "info":""
+  "info":"seit 25. September 2020"
  },
  "LVA":{
   "name":"Lettland",
-  "info":""
+  "info":"seit 11. April 2021"
  },
  "MAR":{
   "name":"Marokko",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "MCO":{
   "name":"Monaco",
@@ -442,15 +442,15 @@ var info_rki = {
  },
  "MDG":{
   "name":"Madagaskar",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "MDV":{
   "name":"Malediven",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 9. Mai 2021"
  },
  "MEX":{
   "name":"Mexiko",
-  "info":""
+  "info":"seit 13. Juni 2021; Hochinzidenzgebiet vom 24. Januar 2021 – 12. Juni 2021"
  },
  "MHL":{
   "name":"Marshallinseln",
@@ -462,14 +462,14 @@ var info_rki = {
  },
  "MLI":{
   "name":"Mali",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "MLT":{
   "name":"Malta",
   "info":""
  },
  "MMR":{
-  "name":"Myanmar",
+  "name":"Myanmar\/Burma",
   "info":""
  },
  "MNE":{
@@ -478,15 +478,15 @@ var info_rki = {
  },
  "MNG":{
   "name":"Mongolei",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 23. Mai 2021 als einfaches Risikogebiet ausgewiesen"
  },
  "MOZ":{
   "name":"Mosambik",
-  "info":""
+  "info":"Virusvariantengebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  },
  "MRT":{
   "name":"Mauretanien",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "MUS":{
   "name":"Mauritius",
@@ -494,27 +494,27 @@ var info_rki = {
  },
  "MWI":{
   "name":"Malawi",
-  "info":""
+  "info":"Virusvariantengebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  },
  "MYS":{
   "name":"Malaysia",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 9. Mai 2021 als einfaches Risikogebiet ausgewiesen"
  },
  "NAM":{
   "name":"Namibia",
-  "info":""
+  "info":"Virusvariantengebiet seit 20. Juni 2021; Hochinzidenzgebiet seit 13. Juni 2021; bereits seit 14. Februar 2021 einfaches Risikogebiet"
  },
  "NER":{
   "name":"Niger",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "NGA":{
   "name":"Nigeria",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "NIC":{
   "name":"Nicaragua",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "NIU":{
   "name":"Niue",
@@ -522,7 +522,7 @@ var info_rki = {
  },
  "NLD":{
   "name":"Niederlande",
-  "info":""
+  "info":"(seit 30. Mai 2021; Hochinzidenzgebiet vom 6. April 2021 – 29. Mai 2021), ausgenommen sind die Provinzen Friesland, Groningen und Zeeland (seit 20. Juni 2021) und die überseeischen Teile des Königreichs Niederlande Curaçao, Bonaire, Sint Eustatius und Saba (seit 6. Juni 2021)"
  },
  "NOR":{
   "name":"Norwegen",
@@ -530,7 +530,7 @@ var info_rki = {
  },
  "NPL":{
   "name":"Nepal",
-  "info":""
+  "info":"Virusvariantengebiet seit 16. Mai 2021; bereits seit 9. Mai 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  },
  "NRU":{
   "name":"Nauru",
@@ -542,23 +542,23 @@ var info_rki = {
  },
  "OMN":{
   "name":"Oman",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 20. Juni 2021; bereits seit 23. Mai 2021 als einfaches Risikogebiet ausgewiesen"
  },
  "PAK":{
   "name":"Pakistan",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "PAN":{
   "name":"Panama",
-  "info":""
+  "info":"seit 28. Februar 2021"
  },
  "PER":{
   "name":"Peru",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 3. April 2021"
  },
  "PHL":{
   "name":"Philippinen",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "PLW":{
   "name":"Palau",
@@ -566,23 +566,23 @@ var info_rki = {
  },
  "PNG":{
   "name":"Papua-Neuguinea",
-  "info":""
+  "info":"seit 17. Juni 2020"
  },
  "POL":{
   "name":"Polen",
   "info":""
  },
  "PRK":{
-  "name":"Korea (Demokratische Volksrepublik)",
-  "info":""
+  "name":"Korea (Volksrepublik)",
+  "info":" seit 15. Juni 2020"
  },
  "PRT":{
   "name":"Portugal",
-  "info":""
+  "info":"– die folgenden Regionen gelten derzeit als einfache Risikogebiete:<ul><li>Azoren (autonome Region) (seit 18. April 2021)<\/li><li>Lissabon (Metropolregion) (seit 13. Juni 2021)<\/li><\/ul>"
  },
  "PRY":{
   "name":"Paraguay",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 21. März 2021"
  },
  "PSE":{
   "name":"Palästinensische Gebiete",
@@ -590,7 +590,7 @@ var info_rki = {
  },
  "QAT":{
   "name":"Katar",
-  "info":""
+  "info":"seit 13. Juni 2021; Hochinzidenzgebiet vom 25. April 2021 – 12. Juni 2021"
  },
  "ROU":{
   "name":"Rumänien",
@@ -598,7 +598,7 @@ var info_rki = {
  },
  "RUS":{
   "name":"Russische Föderation",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "RWA":{
   "name":"Ruanda",
@@ -606,15 +606,15 @@ var info_rki = {
  },
  "SAU":{
   "name":"Saudi-Arabien",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "SDN":{
   "name":"Sudan",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 31. Januar 2021"
  },
  "SEN":{
   "name":"Senegal",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "SGP":{
   "name":"Singapur",
@@ -626,11 +626,11 @@ var info_rki = {
  },
  "SLE":{
   "name":"Sierra Leone",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "SLV":{
   "name":"El Salvador",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "SMR":{
   "name":"San Marino",
@@ -638,7 +638,7 @@ var info_rki = {
  },
  "SOM":{
   "name":"Somalia",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "SRB":{
   "name":"Serbien",
@@ -646,7 +646,7 @@ var info_rki = {
  },
  "SSD":{
   "name":"Südsudan",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "STP":{
   "name":"São Tomé und Príncipe",
@@ -654,7 +654,7 @@ var info_rki = {
  },
  "SUR":{
   "name":"Surinam",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 23. Mai 2021; bereits seit 15. Juni 2020 als einfaches Risikogebiet ausgewiesen"
  },
  "SVK":{
   "name":"Slowakei",
@@ -662,31 +662,31 @@ var info_rki = {
  },
  "SVN":{
   "name":"Slowenien",
-  "info":""
+  "info":"(seit 23. Mai 2021), ausgenommen sind die Regionen Goriška, Jugovzhodna Slovenija, Koroška, Pomurska, Savinjska und Zasavska (seit 20. Juni 2021)"
  },
  "SWE":{
   "name":"Schweden",
-  "info":""
+  "info":"seit 6. Juni 2021; Hochinzidenzgebiet vom 7. März 2021 – 5. Juni 2021"
  },
  "SWZ":{
   "name":"Eswatini",
-  "info":""
+  "info":"Virusvariantengebiet seit 31. Januar 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  },
  "SYC":{
   "name":"Seychellen",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 14. Februar 2021"
  },
  "SYR":{
   "name":"Syrische Arabische Republik",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 31. Januar 2021"
  },
  "TCD":{
   "name":"Tschad",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "TGO":{
   "name":"Togo",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "THA":{
   "name":"Thailand",
@@ -694,15 +694,15 @@ var info_rki = {
  },
  "TJK":{
   "name":"Tadschikistan",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "TKM":{
   "name":"Turkmenistan",
-  "info":""
+  "info":"seit 17. Juni 2020"
  },
  "TLS":{
   "name":"Timor Leste",
-  "info":""
+  "info":"(Osttimor) (seit 17. Juni 2020)"
  },
  "TON":{
   "name":"Tonga",
@@ -710,15 +710,15 @@ var info_rki = {
  },
  "TTO":{
   "name":"Trinidad und Tobago",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 23. Mai 2021; bereits seit 15. Juni 2020 als einfaches Risikogebiet ausgewiesen"
  },
  "TUN":{
   "name":"Tunesien",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 25. April 2021"
  },
  "TUR":{
   "name":"Türkei",
-  "info":""
+  "info":"seit 6. Juni 2021; Hochinzidenzgebiet vom 11. April 2021 – 5. Juni 2021"
  },
  "TUV":{
   "name":"Tuvalu",
@@ -726,11 +726,11 @@ var info_rki = {
  },
  "TZA":{
   "name":"Tansania",
-  "info":""
+  "info":"Hochinzidenzgebiet seit 14. März 2021"
  },
  "UGA":{
   "name":"Uganda",
-  "info":""
+  "info":"seit 20. Juni 2021"
  },
  "UKR":{
   "name":"Ukraine",
@@ -738,27 +738,27 @@ var info_rki = {
  },
  "URY":{
   "name":"Uruguay",
-  "info":""
+  "info":"Virusvariantengebiet seit 6. Juni 2021; bereit seit 21. März 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  },
  "USA":{
-  "name":"Vereinigte Staaten",
+  "name":"USA",
   "info":""
  },
  "UZB":{
   "name":"Usbekistan",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "VAT":{
   "name":"Vatikanstadt",
   "info":""
  },
  "VCT":{
-  "name":"St. Vincent und die Grenadinen",
+  "name":"Saint Vincent and The Grenadines",
   "info":""
  },
  "VEN":{
   "name":"Venezuela",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "VNM":{
   "name":"Vietnam",
@@ -778,18 +778,18 @@ var info_rki = {
  },
  "YEM":{
   "name":"Jemen",
-  "info":""
+  "info":"seit 15. Juni 2020"
  },
  "ZAF":{
   "name":"Südafrika",
-  "info":""
+  "info":"Virusvariantengebiet seit 13. Januar 2021; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  },
  "ZMB":{
   "name":"Sambia",
-  "info":""
+  "info":"Virusvariantengebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  },
  "ZWE":{
   "name":"Simbabwe",
-  "info":""
+  "info":"Virusvariantengebiet seit 7. Februar 2021; bereits seit 31. Januar 2021 Hochinzidenzgebiet; bereits seit 15. Juni 2020 einfaches Risikogebiet"
  }
 };
