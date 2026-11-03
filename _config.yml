@@ -1,7 +1,7 @@
 remote_theme: dieghernan/chulapa
 repository: dieghernan/corona-atlas.de
 url: https://dieghernan.github.io
-baseurl: "corona-atlas.de"
+baseurl: "/corona-atlas.de"
 
 # Find errors on this file with http://www.yamllint.com/
 
@@ -12,13 +12,17 @@ baseurl: "corona-atlas.de"
 # Default values are explained
 locale                  : de-DE
 title                   : "Corona Atlas"
-subtitle                :  "Internationale COVID-19 Risikogebiete im Überblick"
-description             :  #default [your-repository-tagline]
+subtitle                : "Historisches Archiv internationaler COVID-19-Risikogebiete"
+description             : "Historisches Archiv der von deutschen Behörden ausgewiesenen internationalen COVID-19-Risikogebiete. Das Projekt ist eingestellt und wird nicht aktualisiert."
 
 timezone                :  Europe/Berlin
 
 # SEO
-og_image                :     ./assets/img/og_corona_atlas.png
+og_image: https://dieghernan.github.io/corona-atlas.de/assets/img/social-preview.jpg
+og_image_alt: "Corona Atlas: historisches Archiv internationaler COVID-19-Risikogebiete, mit einer historischen Karte. Projekt eingestellt."
+og_image_width: 1200
+og_image_height: 630
+og_image_type: image/jpeg
 twitter_site            : rodrihgh
 author:
   name                  :  "Diego & Rodrigo"
@@ -33,10 +37,10 @@ navbar:
   brand:
     title   :  Corona Atlas # Title in navbar
     url     :  # default["url/baseurl"]
-    img     :  ./assets/img/corona-atlas-icon.svg
+    img     : /assets/img/corona-atlas-icon.svg
   nav:
   - title: Language
-    img: ./assets/img/globe.svg
+    img: /assets/img/globe.svg
     child:
     - title   : Deutsch <img class="d-inline mb-1" src="https://flagcdn.com/16x12/de.png" width="16" height="12" alt="Germany">
       url     : /
@@ -56,8 +60,8 @@ navbar:
 footer:
   links:
     - label: "E-Mail"
-      icon: "far fa-envelope"
-      url:  "info@corona-atlas.de"
+      icon: "fas fa-envelope"
+      url:  "mailto:info@corona-atlas.de"
     - label: "GitHub"
       icon: "fab fa-github"
       url:  "https://github.com/dieghernan/corona-atlas.de"
@@ -89,8 +93,8 @@ compress_html:
   blanklines: true
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-github-metadata
-  - jekyll-paginate
   - jekyll-include-cache
   - jekyll-sitemap
 
@@ -98,6 +102,12 @@ plugins:
 # Exclude these files from production site
 exclude:
   - LICENSE
+  - scripts
+  - AGENTS.md
+  - Gemfile.lock
+  - .bundle
+  - log
+  - timelapse
   - README.md
   - Gemfile
   - vendor
@@ -135,5 +145,13 @@ kramdown:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
+    - abs-percent
+    - function-units
+    - if-function
 

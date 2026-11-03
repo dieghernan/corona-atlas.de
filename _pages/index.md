@@ -1,14 +1,10 @@
 ---
 title: Internationale COVID-19 Risikogebiete
-subtitle: ausgewiesen durch das deutsche Auswärtige Amt, BMG und BMI
+subtitle: "Historisches Archiv · Projekt eingestellt"
 permalink: /
 header_type: hero
-excerpt: |
-  Die folgende interaktive Weltkarte präsentiert die aktuelle
-  Risikoeinstufung aller Staaten der Welt
-  durch das deutsche Auswärtige Amt,
-  das Bundesministerium für Gesundheit
-  und das Bundesministerium des Innern.
+locale: de-DE
+excerpt: "Historisches Archiv der von deutschen Behörden ausgewiesenen internationalen COVID-19-Risikogebiete. Keine aktuellen Reiseinformationen."
 always_allow_html: yes
 output: 
   md_document:
@@ -16,46 +12,36 @@ output:
     variant: gfm
 ---
 
-<i class="fas fa-skull-crossbones"></i> **Project discontinued**
-{: .alert .alert-danger .p-3 .mx-2 .mb-3 .lead}
+**Projekt eingestellt. Historisches Archiv; keine aktuellen Reiseinformationen.**
+{: .alert .alert-warning .p-3 .mx-2 .mb-3 .lead}
 
-<!-- Modify _R/index_es.Rmd file instead -->
+<!-- Source: _R/index.Rmd -->
 
 <p class="text-right font-weight-bold">
 
-Stand: 18.06.2021
+Historischer Datenstand: 18.06.2021
 
 </p>
 
 ## Risikokarte
 
-Die folgende interaktive Weltkarte präsentiert die aktuelle
-Risikoeinstufung aller Staaten der Welt durch das deutsche Auswärtige
-Amt, das Bundesministerium für Gesundheit und das Bundesministerium des
-Innern.
-
-<!--more-->
-
-Durch das Anklicken eines beliebigen Landes erfolgt die Anzeige aller
-zutreffenden Informationen und ggfs. regionaler Ausnahmen.
+Diese interaktive Weltkarte zeigt die archivierten internationalen
+COVID-19-Risikoeinstufungen der deutschen Behörden. Klicken Sie auf ein Land, um
+die gespeicherten Angaben und regionalen Ausnahmen zu sehen.
 
 <div id="leaflet" class="leaflet html-widget" style="width:100%;height:75vh;">
 
 </div>
 
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_de.js"></script>
+<script src="{{ '/assets/data/locale_de.js' | relative_url }}"></script>
 
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
+<script src="{{ '/assets/js/map.js' | relative_url }}"></script>
 
-Alle Angaben sind ohne Gewähr und werden automatisch vom Robert Koch
-Institut mehrmals täglich abgerufen. Einen aktuellen vollständigen
-Überblick aller internationalen Risikogebiete gibt es auf
-[rki.de/risikogebiete](https://rki.de/risikogebiete).
+Die Angaben wurden ursprünglich automatisch vom Robert Koch-Institut abgerufen.
+Die hier gespeicherten Daten werden nicht mehr aktualisiert und sind keine
+aktuellen Reiseinformationen.
 
-Die geltenden Reisebeschränkungen werden auf der [Internetseite des
-Bundesministeriums für
-Gesundheit](https://www.bundesgesundheitsministerium.de/coronavirus-infos-reisende)
-bekanntgegeben.
+Ursprüngliche Quellen: [Robert Koch-Institut](https://rki.de/risikogebiete) und [Bundesministerium für Gesundheit](https://www.bundesgesundheitsministerium.de/).
 
 ## Datenbank
 
@@ -67,7 +53,7 @@ Informationen direkt in der Datenbank nachgeschlagen werden.
 
 <p class="text-center my-5">
 
-<a href="assets/dist/db_countries_risk_de.csv" class="btn btn-primary">Datenbank
+<a href="{{ '/assets/dist/db_countries_risk_de.csv' | relative_url }}" class="btn btn-primary">Datenbank
 herunterladen (CSV-Datei)</a>
 
 </p>

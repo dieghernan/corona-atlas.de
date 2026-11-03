@@ -7,3 +7,9 @@ __pycache__/
 *.py[cod]
 timelapse/data/
 timelapse/archive/
+
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/

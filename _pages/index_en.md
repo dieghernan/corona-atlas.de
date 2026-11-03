@@ -1,14 +1,10 @@
 ---
 title: "International COVID-19 risk areas"
-subtitle: "as designated by the German government"
+subtitle: "Historical archive · Project discontinued"
 permalink: /en
 header_type: hero
-excerpt: |
-  The interactive map allows you to explore
-  Germany's current risk designation worldwide.
-  Click in a specific country to read more details
-  about that country and its regions
-  regarding traveling to Germany.
+locale: en-US
+excerpt: "Historical archive of international COVID-19 risk areas designated by German authorities. No current travel guidance."
 always_allow_html: yes
 output: 
   md_document:
@@ -16,41 +12,36 @@ output:
     variant: gfm
 ---
 
+**Project discontinued. Historical archive; no current travel guidance.**
+{: .alert .alert-warning .p-3 .mx-2 .mb-3 .lead}
 
-<i class="fas fa-skull-crossbones"></i> **Project discontinued**
-{: .alert .alert-danger .p-3 .mx-2 .mb-3 .lead}
-
-
-<!-- Modify _R/index_es.Rmd file instead -->
+<!-- Source: _R/index_en.Rmd -->
 
 <p class="text-right font-weight-bold">
 
-Updated on 18 June 2021
+Historical data snapshot: 18 June 2021
 
 </p>
 
 ## Risk map
 
-The interactive map allows you to explore Germany’s current risk
-designation worldwide. Click in a specific country to read more details
-about that country and its regions regarding traveling to Germany.
+This interactive map shows the archived international COVID-19 risk designations
+issued by German authorities. Click on a country to see its saved details and
+regional exceptions.
 
 <div id="leaflet" class="leaflet html-widget" style="width:100%;height:75vh;">
 
 </div>
 
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_en.js"></script>
+<script src="{{ '/assets/data/locale_en.js' | relative_url }}"></script>
 
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
+<script src="{{ '/assets/js/map.js' | relative_url }}"></script>
 
-All information is directly fetched from the Robert Koch Institut and
-supplied without guarantee. For a complete up-to-date overview on all
-international risk areas visit
-[rki.de/risikogebiete](https://rki.de/risikogebiete).
+The information was originally collected automatically from the Robert Koch
+Institute. The saved data is no longer updated and does not provide current
+travel guidance.
 
-The current travel restrictions for risk areas are published on [the
-website of the German Federal Ministry of
-Health](https://www.bundesgesundheitsministerium.de/en/coronavirus/current-information-for-travellers).
+Original sources: [Robert Koch Institute](https://rki.de/risikogebiete) and [German Federal Ministry of Health](https://www.bundesgesundheitsministerium.de/en/).
 
 ## Database
 
@@ -61,7 +52,7 @@ You can also browse the countries directly on the database.
 
 <p class="text-center my-5">
 
-<a href="assets/dist/db_countries_risk_en.csv" class="btn btn-primary">Download
+<a href="{{ '/assets/dist/db_countries_risk_en.csv' | relative_url }}" class="btn btn-primary">Download
 database (CSV)</a>
 
 </p>

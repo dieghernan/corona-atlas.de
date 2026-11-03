@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Corona Atlas – Social Preview</title>
+  <style>
+    @font-face { font-family: Montserrat; src: url('./assets/fonts/Montserrat.ttf'); font-weight: 100 900; }
+    @font-face { font-family: Roboto; src: url('./assets/fonts/Roboto.ttf'); font-weight: 100 900; }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; }
+    body { background: #fff; color: #172b40; font-family: Roboto, sans-serif; }
+    .map { position: absolute; inset: 0 0 0 43%; overflow: hidden; }
+    .map img { width: 100%; height: 100%; object-fit: cover; object-position: 51% center; }
+    .fade { position: absolute; inset: 0; background: linear-gradient(90deg, #fff 0%, #fff 40%, #fffffff0 47%, #ffffff00 65%); }
+    main { position: absolute; inset: 9% 5%; }
+    .tag { display: inline-block; color: #1565c0; font-size: 1.6vw; font-weight: 700; letter-spacing: .12vw; border-top: .35vw solid #1565c0; padding-top: 1.2vw; }
+    h1 { margin: 3.5vw 0 0; font: 750 6.7vw/1.06 Montserrat, sans-serif; letter-spacing: -.22vw; }
+    .description { margin: 2.5vw 0 0; font-size: 2.15vw; line-height: 1.5; color: #334c66; }
+    .status { margin-top: 2.1vw; font-size: 1.5vw; color: #334c66; }
+    footer { position: absolute; bottom: 0; font-size: 1.5vw; color: #1565c0; font-weight: 600; }
+    .credit { position: absolute; right: 2%; bottom: 2.5%; padding: .55em .8em; background: #fffffff0; color: #263b50; font-size: .95vw; line-height: 1.45; text-align: right; }
+  </style>
+</head>
+<body>
+  <div class="map"><img src="../assets/img/og_corona_atlas.png" alt="Historical map of international COVID-19 risk areas"></div>
+  <div class="fade"></div>
+  <main>
+    <div class="tag">HISTORICAL ARCHIVE</div>
+    <h1>Corona<br>Atlas</h1>
+    <p class="description">International<br>COVID-19 risk areas</p>
+    <p class="status">Project discontinued · No current travel guidance</p>
+    <footer>Diego &amp; Rodrigo</footer>
+  </main>
+  <div class="credit">Historical classifications: RKI<br>© OpenStreetMap contributors · © CARTO · EuroGeographics</div>
+</body>
+</html>

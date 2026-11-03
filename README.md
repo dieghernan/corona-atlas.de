@@ -11,7 +11,8 @@ or contact us directly
 
 Interactive map of the international COVID-19 risk areas as designated by the German authorities.
 
-The data is updated periodically from the website of the [Robert Koch Institute][rki].
+The site preserves historical data collected from the [Robert Koch Institute][rki].
+It is no longer updated and does not provide current travel guidance.
 
 Data scraping is performed on **Python** with
 [**scrapy**](https://scrapy.org/).
@@ -31,7 +32,7 @@ as its Jekyll theme.
 
 [rki]: https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Risikogebiete_neu.html
 
-## Current status
+## Historical map
 
 [![Corona Atlas](/assets/img/og_corona_atlas.png)][corona-atlas]
 
@@ -40,3 +41,9 @@ as its Jekyll theme.
 ![Time-lapse](/assets/img/corona_atlas_timelapse.gif)
 
 [corona-atlas]: https://dieghernan.github.io/corona-atlas.de/
+
+## Site maintenance
+
+See [the maintenance and social-card instructions](scripts/README.md) for local
+builds, sharing images and the Pages workflow. The interactive map uses
+OpenStreetMap; the historical risk designations remain unchanged.

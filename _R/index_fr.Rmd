@@ -1,17 +1,19 @@
 ---
-title: Informations sur les zones à risque d'exposition au COVID-19 internationales
-subtitle: établies par le gouvernement allemand
+title: Zones internationales à risque COVID-19
+subtitle: "Archives historiques · Projet arrêté"
 permalink: /fr
 header_type: hero
-excerpt: |
-  La carte interactive suivante présente les zones à risque
-  actuelles dans le monde pour chaque pays selon le gouvernement allemand.
+locale: fr-FR
+excerpt: "Archives historiques des zones internationales à risque COVID-19 désignées par les autorités allemandes. Aucune information de voyage actuelle."
 always_allow_html: yes
-output: 
+output:
   md_document:
     preserve_yaml: true
     variant: gfm
 ---
+
+**Projet arrêté. Archives historiques ; aucune information de voyage actuelle.**
+{: .alert .alert-warning .p-3 .mx-2 .mb-3 .lead}
 
 ```{r, child='snippets/setup.Rmd'}
 ```
@@ -20,52 +22,36 @@ output:
 db_table <- readr::read_csv("../assets/dist/db_countries_risk_fr.csv")
 ```
 
-<!-- Modify _R/index_fr.Rmd file instead -->
+<!-- Source: _R/index_fr.Rmd -->
 
-<p class="text-right font-weight-bold">mis à jour le `r format(date, format="%d/%m/%Y")`</p>
-
-
-   
-## Carte du risque Covid-19
-
-La carte interactive suivante présente 
-les zones à risque actuelles dans le monde
-à partir des informations données par
-le ministère allemand des Affaires étrangères,
-le ministère allemand de la santé
-et le ministère allemand de l'intérieur.
+<p class="text-right font-weight-bold">Date des données historiques : `r format(date, format="%d/%m/%Y")`</p>
 
 
-<!--more-->
-Cliquez sur un pays spécifique 
-pour lire plus de détails sur son statut actuel 
-ainsi que celui de ses régions.
+## Carte du risque COVID-19
 
-```{r echo=FALSE}
-knitr::asis_output(htmltools::htmlPreserve('
+Cette carte interactive présente les zones internationales à risque COVID-19
+désignées par les autorités allemandes et conservées dans ces archives. Cliquez
+sur un pays pour consulter les informations enregistrées et les exceptions
+régionales.
+
 <div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_fr.js"></script>
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
-'))
-```
-Toutes les indications sont données sans garantie
-car elles sont récupérées automatiquement 
-sur la page web de l'institut Robert Koch plusieurs fois par jour. 
-Vous retrouverez l'intégralité des informations concernant les zones à risque sur [leur site web](https://rki.de/risikogebiete).
+<script src="{{ '/assets/data/locale_fr.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/map.js' | relative_url }}"></script>
 
-Les restrictions liées aux voyages vers l'Allemagne depuis l'étranger sont récupérées sur
-[le site internet du ministère allemand de la santé](https://www.bundesgesundheitsministerium.de/coronavirus-infos-reisende).
+Les informations étaient recueillies automatiquement sur le site de l’Institut
+Robert Koch. Les données conservées ne sont plus mises à jour et ne fournissent
+aucune information de voyage actuelle.
 
-## Banque de donnée
+Sources originales : [Institut Robert Koch](https://rki.de/risikogebiete) et [ministère fédéral allemand de la Santé](https://www.bundesgesundheitsministerium.de/).
 
-Vous pouvez aussi télécharger les informations concernant 
-toutes les zones définies comme étant à risque dans le monde depuis notre banque de donnée.
+## Base de données
+
+Vous pouvez aussi télécharger les informations concernant
+toutes les zones définies comme étant à risque dans le monde depuis notre base de données.
 
 ```{r, child='snippets/table.Rmd'}
 ```
 
-
-
 <p class="text-center my-5">
-  <a href="assets/dist/db_countries_risk_fr.csv" class="btn btn-primary">Télécharger les informations (Fichier CSV)</a>
+  <a href="{{ '/assets/dist/db_countries_risk_fr.csv' | relative_url }}" class="btn btn-primary">Télécharger les informations (fichier CSV)</a>
 </p>

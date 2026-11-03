@@ -1,12 +1,16 @@
-var carto_voyager = L.tileLayer.provider('CartoDB.Voyager');
-var stamen_terrain = L.tileLayer.provider('Stamen.TerrainBackground');
+var countryShapesUrl = new URL('../geo/country_shapes.geojson', document.currentScript.src).href;
+
+var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
 
 var map = new L.Map('leaflet', {
     center: [51.705533, 11.8124408],
     maxBounds: [[-90, -180], [90, 180]],
     zoom: 4,
     minZoom: 1,
-    layers: [carto_voyager]
+    layers: [osm]
 });
 
 var eg_url = "https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units";
@@ -14,8 +18,7 @@ L.tileLayer('', {attribution: '&copy; <a href="'+eg_url+'">EuroGeographics</a>' 
         ' for the administrative boundaries'}).addTo(map);
 
 var baseMaps = {
-    "Carto Voyager": carto_voyager,
-    "Stamen Terrain": stamen_terrain
+    "OpenStreetMap": osm
 };
 
 L.easyButton('fa-globe', function(btn, map){
@@ -32,11 +35,11 @@ var risk_labels = locale["risk_labels"];
 var risk_colors = ["#00FF00", "red", "orange", "yellow", "#ADFF2F"];
 
 // loading GeoJSON file
-$.getJSON("https://dieghernan.github.io/corona-atlas.de/assets/geo/country_shapes.geojson",function(data){
+$.getJSON(countryShapesUrl,function(data){
 // L.geoJson function is used to parse geojson file and load on to map
     let more_info = locale["more_info"];
     L.geoJson(data,
-            {color: "#44444",
+            {color: "#444444",
             weight: 0.5,
             smoothFactor: .1,
             opacity: 1,
@@ -72,7 +75,7 @@ $.getJSON("https://dieghernan.github.io/corona-atlas.de/assets/geo/country_shape
                 });
                 layer.on("mouseout", function(ev) {
                     ev.target.setStyle({
-                        color: "#44444",
+                        color: "#444444",
                         weight: 0.5,
                         bringToFront: false,}); // ev is an event object (MouseEvent in this case)
                 });

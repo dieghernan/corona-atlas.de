@@ -1,11 +1,10 @@
 ---
-title: Informations sur les zones à risque d'exposition au COVID-19 internationales
-subtitle: établies par le gouvernement allemand
+title: Zones internationales à risque COVID-19
+subtitle: "Archives historiques · Projet arrêté"
 permalink: /fr
 header_type: hero
-excerpt: |
-  La carte interactive suivante présente les zones à risque
-  actuelles dans le monde pour chaque pays selon le gouvernement allemand.
+locale: fr-FR
+excerpt: "Archives historiques des zones internationales à risque COVID-19 désignées par les autorités allemandes. Aucune information de voyage actuelle."
 always_allow_html: yes
 output: 
   md_document:
@@ -13,58 +12,46 @@ output:
     variant: gfm
 ---
 
+**Projet arrêté. Archives historiques ; aucune information de voyage actuelle.**
+{: .alert .alert-warning .p-3 .mx-2 .mb-3 .lead}
 
-<i class="fas fa-skull-crossbones"></i> **Project discontinued**
-{: .alert .alert-danger .p-3 .mx-2 .mb-3 .lead}
-
-
-<!-- Modify _R/index_fr.Rmd file instead -->
+<!-- Source: _R/index_fr.Rmd -->
 
 <p class="text-right font-weight-bold">
 
-mis à jour le 18/06/2021
+Date des données historiques : 18/06/2021
 
 </p>
 
-## Carte du risque Covid-19
+## Carte du risque COVID-19
 
-La carte interactive suivante présente les zones à risque actuelles dans
-le monde à partir des informations données par le ministère allemand des
-Affaires étrangères, le ministère allemand de la santé et le ministère
-allemand de l’intérieur.
-
-<!--more-->
-
-Cliquez sur un pays spécifique pour lire plus de détails sur son statut
-actuel ainsi que celui de ses régions.
-
+Cette carte interactive présente les zones internationales à risque COVID-19
+désignées par les autorités allemandes et conservées dans ces archives. Cliquez
+sur un pays pour consulter les informations enregistrées et les exceptions
+régionales.
 
 <div id="leaflet" style="width:100%;height:75vh;" class="leaflet html-widget"></div>
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_fr.js"></script>
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
+<script src="{{ '/assets/data/locale_fr.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/map.js' | relative_url }}"></script>
 
-Toutes les indications sont données sans garantie car elles sont
-récupérées automatiquement sur la page web de l’institut Robert Koch
-plusieurs fois par jour. Vous retrouverez l’intégralité des informations
-concernant les zones à risque sur [leur site
-web](https://rki.de/risikogebiete).
+Les informations étaient recueillies automatiquement sur le site de l’Institut
+Robert Koch. Les données conservées ne sont plus mises à jour et ne fournissent
+aucune information de voyage actuelle.
 
-Les restrictions liées aux voyages vers l’Allemagne depuis l’étranger
-sont récupérées sur [le site internet du ministère allemand de la
-santé](https://www.bundesgesundheitsministerium.de/coronavirus-infos-reisende).
+Sources originales : [Institut Robert Koch](https://rki.de/risikogebiete) et [ministère fédéral allemand de la Santé](https://www.bundesgesundheitsministerium.de/).
 
-## Banque de donnée
+## Base de données
 
 Vous pouvez aussi télécharger les informations concernant toutes les
-zones définies comme étant à risque dans le monde depuis notre banque de
-donnée.
+zones définies comme étant à risque dans le monde depuis notre base de
+données.
 
 <div id="reactable" class="reactable html-widget" style="width:auto;height:auto;"></div>
 <script type="application/json" data-for="reactable">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Pays/Région":["Afghanistan","Angola","Albanie","Andorre","Émirats arabes unis","Argentine","Arménie","Antigua-et-Barbuda","Australie","Autriche","Azerbaïdjan","Burundi","Belgique","Bénin","Burkina Faso","Bangladesh","Bulgarie","Bahreïn","Bahamas","Bosnie-Herzégovine","Bélarus","Belize","Bolivie","Brésil","Barbade","Brunei","Bhoutan","Botswana","République Centrafricaine","Canada","Suisse","Chili","Chine","Côte d'Ivoire","Cameroun","République démocratique du Congo","Congo","Colombie","Comores","Cap-Vert","Costa Rica","Cuba","Chypre","Tchéquie","Allemagne","Djibouti","Dominique","Danemark","République Dominicaine","Algérie","Équateur","Égypte","Érythrée","Espagne","Estonie","Éthiopie","Finlande","Fidji","France","Micronésie","Gabon","Royaume-Uni","Géorgie","Ghana","Guinée","Gambie","Guinée-Bissau","Guinée Équatoriale","Grèce","Grenade","Guatemala","Guyana","Hong-Kong","Honduras","Croatie","Haïti","Hongrie","Indonésie","Inde","Irlande","Iran","Irak","Islande","Israël","Italie","Jamaïque","Jordanie","Japon","Kazakhstan","Kenya","Kirghizistan","Cambodge","Kiribati","Saint-Kitts-et-Nevis","Corée du Sud","Koweït","Laos","Liban","Libéria","Libye","Sainte-Lucie","Liechtenstein","Sri Lanka","Lesotho","Lituanie","Luxembourg","Lettonie","Maroc","Monaco","Moldavie","Madagascar","Maldives","Mexique","Îles Marshall","Macédoine du Nord","Mali","Malte","Myanmar/Burma","Monténégro","Mongolie","Mozambique","Mauritanie","Maurice","Malawi","Malaisie","Namibie","Niger","Nigeria","Nicaragua","Nioue","Pays-Bas","Norvège","Népal","Nauru","Nouvelle-Zélande","Oman","Pakistan","Panama","Pérou","Philippines","Palaos","Papouasie-Nouvelle-Guinée","Pologne","Corée du Nord","Portugal","Paraguay","Palestine","Qatar","Roumanie","Russie","Rwanda","Arabie saoudite","Soudan","Sénégal","Singapour","Îles Salomon","Sierra Leone","El Salvador","San Marin","Somalie","Serbie","Soudan du Sud","Sao Tomé-et-Principe","Surinam","Slovaquie","Slovénie","Suède","Eswatini","Seychelles","Syrie","Tchad","Togo","Thaïlande","Tadjikistan","Turkménistan","Timor-Leste","Tonga","Trinité-et-Tobago","Tunisie","Turquie","Tuvalu","République unie de Tanzanie","Ouganda","Ukraine","Uruguay","États-Unis","Ouzbékistan","Vatican","Saint-Vincent-et-les-Grenadines","Vénézuela","Vietnam","Vanuatu","Samoa","Kosovo","Yémen","Afrique du Sud","Zambie","Zimbabwe"],"Niveau de risque":["Zone à risque","Zone à risque","Zone sans risque","Zone à risque","Zone à risque","Zone à forte incidence","Zone sans risque","Zone sans risque","Zone sans risque","Zone sans risque","Zone sans risque","Zone à risque","Zone sans risque","Zone à risque","Zone à risque","Zone à risque","Zone sans risque","Zone à forte incidence","Zone à risque","Zone sans risque","Zone à risque","Zone à risque","Zone à forte incidence","Zone de variantes du virus","Zone sans risque","Zone sans risque","Zone à risque","Zone de variantes du virus","Zone à risque","Zone sans risque","Zone sans risque","Zone à forte incidence","Zone sans risque","Zone à risque","Zone à risque","Zone à risque","Zone à risque","Zone à forte incidence","Zone à risque","Zone à risque","Zone à forte incidence","Zone à risque","Zone sans risque","Zone sans risque",null,"Zone à risque","Zone sans risque","Zone à risque (partiel)","Zone à risque","Zone à risque","Zone à forte incidence","Zone à forte incidence","Zone à risque","Zone à risque (partiel)","Zone sans risque","Zone à risque","Zone sans risque","Zone sans risque","Zone à risque (partiel)","Zone sans risque","Zone à risque","Zone de variantes du virus","Zone à risque","Zone à risque","Zone à risque","Zone à risque","Zone à risque","Zone à risque","Zone sans risque","Zone sans risque","Zone à risque","Zone à risque","Zone sans risque","Zone à risque","Zone à risque (partiel)","Zone à risque","Zone sans risque","Zone à risque","Zone de variantes du virus","Zone à risque (partiel)","Zone à forte incidence","Zone à risque","Zone sans risque","Zone sans risque","Zone sans risque","Zone sans risque","Zone sans risque","Zone sans risque","Zone à risque","Zone à risque","Zone à risque","Zone sans risque","Zone sans risque","Zone à risque","Zone sans risque","Zone à forte incidence","Zone sans risque","Zone sans risque","Zone à risque","Zone à risque","Zone sans risque","Zone sans risque","Zone à forte incidence","Zone de variantes du virus","Zone sans risque","Zone à risque","Zone à risque","Zone à risque","Zone sans risque","Zone sans risque","Zone à risque","Zone à forte incidence","Zone à risque","Zone sans risque","Zone sans risque","Zone à risque","Zone sans risque","Zone sans risque","Zone sans risque","Zone à forte incidence","Zone de variantes du virus","Zone à risque","Zone sans risque","Zone de variantes du virus","Zone à forte incidence","Zone de variantes du virus","Zone à risque","Zone à risque","Zone à risque","Zone sans risque","Zone à risque (partiel)","Zone sans risque","Zone de variantes du virus","Zone sans risque","Zone sans risque","Zone à forte incidence","Zone à risque","Zone à risque","Zone à forte incidence","Zone à risque","Zone sans risque","Zone à risque","Zone sans risque","Zone à risque","Zone à risque (partiel)","Zone à forte incidence","Zone sans risque","Zone à risque","Zone sans risque","Zone à risque","Zone sans risque","Zone à risque","Zone à forte incidence","Zone à risque","Zone sans risque","Zone sans risque","Zone à risque","Zone à risque","Zone sans risque","Zone à risque","Zone sans risque","Zone à risque","Zone sans risque","Zone à forte incidence","Zone sans risque","Zone à risque (partiel)","Zone à risque","Zone de variantes du virus","Zone à forte incidence","Zone à forte incidence","Zone à risque","Zone à risque","Zone sans risque","Zone à risque","Zone à risque","Zone à risque","Zone sans risque","Zone à forte incidence","Zone à forte incidence","Zone à risque","Zone sans risque","Zone à forte incidence","Zone à risque","Zone sans risque","Zone de variantes du virus","Zone sans risque","Zone à risque","Zone sans risque","Zone sans risque","Zone à risque","Zone sans risque","Zone sans risque","Zone sans risque","Zone sans risque","Zone à risque","Zone de variantes du virus","Zone de variantes du virus","Zone de variantes du virus"],"Détails":["depuis le 21/02/2021","depuis le 15/06/2020",null,"depuis le 23/05/2021","depuis le 18/04/2021","depuis le 18/04/2021",null,null,null,null,null,"depuis le 15/06/2020",null,"depuis le 15/06/2020","depuis le 15/06/2020","depuis le 15/06/2020",null,"depuis le 14/02/2021","depuis le 25/04/2021",null,"depuis le 15/06/2020","depuis le 15/06/2020","depuis le 24/01/2021","depuis le 19/01/2021",null,null,"depuis le 15/06/2020","depuis le 07/02/2021","depuis le 15/06/2020",null,null,"depuis le 03/04/2021",null,"depuis le 15/06/2020","depuis le 15/06/2020","depuis le 15/06/2020","depuis le 15/06/2020","depuis le 24/01/2021","depuis le 15/06/2020","depuis le 20/06/2021","depuis le 09/05/2021","depuis le 28/02/2021",null,null,null,"depuis le 15/06/2020",null,"depuis le 28/03/2021. Les régions suivantes sont exclues: -Faroes; -Groënland; -Danemark du Sud","depuis le 30/05/2021","depuis le 15/06/2020","depuis le 31/01/2021","depuis le 24/01/2021","depuis le 15/06/2020","depuis le 14/08/2020. Le niveau de risque concerne les régions suivantes: -Andalousie, depuis le 14/08/2020; -Pays Basque, depuis le 14/08/2020; -Ceuta, depuis le 13/06/2021; -La Rioja, depuis le 03/04/2021; -Navarre, depuis le 31/07/2020",null,"depuis le 15/06/2020",null,null,"depuis le 23/05/2021. Les régions suivantes sont exclues: -France continental; -La Corse; -Martinique; -Mayotte; -Nouvelle-Calédonie; -Polynesien; -Saint-Barthélemy; -Saint-Pierre et Miquelon; -Wallis et Futuna",null,"depuis le 15/06/2020","depuis le 23/05/2021","depuis le 13/06/2021","depuis le 15/06/2020","depuis le 15/06/2020","depuis le 15/06/2020","depuis le 15/06/2020","depuis le 15/06/2020",null,null,"depuis le 15/06/2020","depuis le 15/06/2020",null,"depuis le 15/06/2020","depuis le 23/05/2021. Le niveau de risque concerne les régions suivantes: -Medimurje, depuis le 23/05/2021; -Varazdin, depuis le 23/05/2021","depuis le 15/06/2020",null,"depuis le 15/06/2020","depuis le 26/04/2021","depuis le 21/03/2021. Le niveau de risque concerne les régions suivantes: -Border, depuis le 21/03/2021; -Dublin, depuis le 21/03/2021; -Mid-East, depuis le 21/03/2021","depuis le 24/01/2021","depuis le 15/06/2020",null,null,null,null,null,null,"depuis le 15/06/2020","depuis le 15/06/2020","depuis le 15/06/2020",null,null,"depuis le 20/06/2021",null,"depuis le 21/03/2021",null,null,"depuis le 15/06/2020","depuis le 15/06/2020",null,null,"depuis le 13/06/2021","depuis le 31/01/2021",null,"depuis le 25/09/2020","depuis le 11/04/2021","depuis le 15/06/2020",null,null,"depuis le 15/06/2020","depuis le 09/05/2021","depuis le 13/06/2021",null,null,"depuis le 15/06/2020",null,null,null,"depuis le 13/06/2021","depuis le 07/02/2021","depuis le 15/06/2020",null,"depuis le 07/02/2021","depuis le 13/06/2021","depuis le 20/06/2021","depuis le 15/06/2020","depuis le 15/06/2020","depuis le 15/06/2020",null,"depuis le 30/05/2021. Les régions suivantes sont exclues: -Bonaire; -Curaçao; -Frise; -Groningue; -Sint Eustatius et Saba; -Zélande",null,"depuis le 16/05/2021",null,null,"depuis le 20/06/2021","depuis le 15/06/2020","depuis le 28/02/2021","depuis le 03/04/2021","depuis le 15/06/2020",null,"depuis le 17/06/2020",null,"depuis le 15/06/2020","depuis le 18/04/2021. Le niveau de risque concerne les régions suivantes: -Azores, depuis le 18/04/2021; -Lisbonne, depuis le 13/06/2021","depuis le 21/03/2021",null,"depuis le 13/06/2021",null,"depuis le 15/06/2020",null,"depuis le 15/06/2020","depuis le 31/01/2021","depuis le 15/06/2020",null,null,"depuis le 15/06/2020","depuis le 15/06/2020",null,"depuis le 15/06/2020",null,"depuis le 15/06/2020",null,"depuis le 23/05/2021",null,"depuis le 23/05/2021. Les régions suivantes sont exclues: -Goriška; -Jugovzhodna Slovenija; -Koroška; -Pomurska; -Savinjska; -Zasavska","depuis le 06/06/2021","depuis le 31/01/2021","depuis le 14/02/2021","depuis le 31/01/2021","depuis le 15/06/2020","depuis le 15/06/2020",null,"depuis le 15/06/2020","depuis le 17/06/2020","depuis le 17/06/2020",null,"depuis le 23/05/2021","depuis le 25/04/2021","depuis le 06/06/2021",null,"depuis le 14/03/2021","depuis le 20/06/2021",null,"depuis le 06/06/2021",null,"depuis le 15/06/2020",null,null,"depuis le 15/06/2020",null,null,null,null,"depuis le 15/06/2020","depuis le 13/01/2021","depuis le 07/02/2021","depuis le 07/02/2021"]},"columns":[{"accessor":"Pays/Région","name":"Pays/Région","type":"character"},{"accessor":"Niveau de risque","name":"Niveau de risque","type":"character"},{"accessor":"Détails","name":"Détails","type":"character"}],"filterable":true,"searchable":true,"defaultPageSize":10,"showPageSizeOptions":true,"pageSizeOptions":[10,25,50,100],"paginationType":"jump","showPageInfo":true,"minRows":1,"striped":true,"dataKey":"06ac2818ec1ab2c3588bddfce7cccda4","key":"06ac2818ec1ab2c3588bddfce7cccda4"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 
 <p class="text-center my-5">
 
-<a href="assets/dist/db_countries_risk_fr.csv" class="btn btn-primary">Télécharger
-les informations (Fichier CSV)</a>
+<a href="{{ '/assets/dist/db_countries_risk_fr.csv' | relative_url }}" class="btn btn-primary">Télécharger
+les informations (fichier CSV)</a>
 
 </p>

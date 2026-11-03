@@ -1,15 +1,10 @@
 ---
 title: "Áreas internacionales de riesgo COVID-19"
-subtitle: "establecidas por el Gobierno de Alemania"
+subtitle: "Archivo histórico · Proyecto finalizado"
 permalink: /es
 header_type: hero
-excerpt: |
-    En este mapa interactivo puedes explorar
-    las áreas de riesgo internacionales fijadas
-    por el gobierno alemán para todo el mundo.
-    Haz clic en un país en concreto
-    para leer más detalles sobre
-    su estado actual.
+locale: es-ES
+excerpt: "Archivo histórico de las áreas internacionales de riesgo COVID-19 establecidas por las autoridades alemanas. No ofrece información de viaje actual."
 always_allow_html: yes
 output: 
   md_document:
@@ -17,42 +12,37 @@ output:
     variant: gfm
 ---
 
+**Proyecto finalizado. Archivo histórico; no ofrece información de viaje actual.**
+{: .alert .alert-warning .p-3 .mx-2 .mb-3 .lead}
 
-<i class="fas fa-skull-crossbones"></i> **Project discontinued**
-{: .alert .alert-danger .p-3 .mx-2 .mb-3 .lead}
-
-
-<!-- Modify _R/index_es.Rmd file instead -->
+<!-- Source: _R/index_es.Rmd -->
 
 <p class="text-right font-weight-bold">
 
-Actualizado el 18/06/2021
+Fecha de los datos históricos: 18/06/2021
 
 </p>
 
 ## Mapa de áreas de riesgo
 
-En este mapa interactivo puedes explorar las áreas de riesgo
-internacionales fijadas por el gobierno alemán para todo el mundo. Haz
-clic en un país en concreto para leer más detalles sobre su estado
-actual.
+Este mapa interactivo muestra las áreas internacionales de riesgo COVID-19
+establecidas por las autoridades alemanas y conservadas en este archivo. Haz
+clic en un país para consultar la información guardada y las excepciones
+regionales.
 
 <div id="leaflet" class="leaflet html-widget" style="width:100%;height:75vh;">
 
 </div>
 
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_es.js"></script>
+<script src="{{ '/assets/data/locale_es.js' | relative_url }}"></script>
 
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
+<script src="{{ '/assets/js/map.js' | relative_url }}"></script>
 
-Todos los datos se recogen automáticamente de la web del Robert Koch
-Institut, por lo que no puede garantizarse su veracidad. Visita
-[rki.de/risikogebiete](https://rki.de/risikogebiete) para obtener la
-información completa sobre todas las áreas de riesgo.
+Los datos se recogían automáticamente de la web del Instituto Robert Koch. La
+información conservada ya no se actualiza y no ofrece indicaciones de viaje
+vigentes.
 
-Las restricciones actuales para la entrada a Alemania desde el
-extranjero están recogidas en [la página web del Ministerio Alemán de
-Salud](https://www.bundesgesundheitsministerium.de/en/coronavirus/current-information-for-travellers).
+Fuentes originales: [Instituto Robert Koch](https://rki.de/risikogebiete) y [Ministerio Federal de Salud de Alemania](https://www.bundesgesundheitsministerium.de/en/).
 
 ## Base de datos
 
@@ -64,7 +54,7 @@ base de datos.
 
 <p class="text-center my-5">
 
-<a href="assets/dist/db_countries_risk_es.csv" class="btn btn-primary">Descargar
+<a href="{{ '/assets/dist/db_countries_risk_es.csv' | relative_url }}" class="btn btn-primary">Descargar
 base de datos (CSV)</a>
 
 </p>

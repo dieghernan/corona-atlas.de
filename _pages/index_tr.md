@@ -1,14 +1,10 @@
 ---
-title: "Uluslararasi COVID-19 risk bölgeleri"
-subtitle: "Alman hükümeti tarafından belirlendiği şekilde"
+title: "Uluslararası COVID-19 risk bölgeleri"
+subtitle: "Tarihsel arşiv · Proje sonlandırıldı"
 permalink: /tr
 header_type: hero
-excerpt: |
-  İnteraktif harita Almanya tarafından belirlenen Dünya 
-  çapındaki mevcut risk tanımlarını keşfetmenizi sağlar.
-  Bir ülke ve bölgelerinden Almanya'ya seyahat ile ilgili
-  kısıtlamalar hakkında daha fazla bilgi için 
-  o ülkeye tıklayın.
+locale: tr-TR
+excerpt: "Alman makamları tarafından belirlenen uluslararası COVID-19 risk bölgelerinin tarihsel arşivi. Güncel seyahat bilgisi sunmaz."
 always_allow_html: yes
 output: 
   md_document:
@@ -16,42 +12,36 @@ output:
     variant: gfm
 ---
 
-<i class="fas fa-skull-crossbones"></i> **Project discontinued**
-{: .alert .alert-danger .p-3 .mx-2 .mb-3 .lead}
+**Proje sonlandırıldı. Tarihsel arşiv; güncel seyahat bilgisi sunmaz.**
+{: .alert .alert-warning .p-3 .mx-2 .mb-3 .lead}
 
-<!-- Modify _R/index_tr.Rmd file instead -->
+<!-- Source: _R/index_tr.Rmd -->
 
 <p class="text-right font-weight-bold">
 
-18.06.2021’de güncellendi
+Tarihsel verilerin tarihi: 18.06.2021
 
 </p>
 
 ## COVID-19 risk haritası
 
-İnteraktif harita, Almanya tarafından belirlenen Dünya çapındaki mevcut
-risk tanımlarını keşfetmenizi sağlar. Bir ülke ve bölgelerinden
-Almanya’ya seyahat ile ilgili kısıtlamalar hakkında daha fazla bilgi
-için o ülkeye tıklayın.
+Bu interaktif harita, Alman makamları tarafından belirlenen uluslararası
+COVID-19 risk bölgelerinin arşivlenmiş durumunu gösterir. Kaydedilmiş bilgileri
+ve bölgesel istisnaları görmek için bir ülkeye tıklayın.
 
 <div id="leaflet" class="leaflet html-widget" style="width:100%;height:75vh;">
 
 </div>
 
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/data/locale_tr.js"></script>
+<script src="{{ '/assets/data/locale_tr.js' | relative_url }}"></script>
 
-<script src="https://dieghernan.github.io/corona-atlas.de/assets/js/map.js"></script>
+<script src="{{ '/assets/js/map.js' | relative_url }}"></script>
 
-Tüm bilgiler doğrudan Robert Koch Enstitüsü’nden alınır ve garanti
-olmaksızın sağlanmaktadır. Dünya genelindeki risk alanları hakkında,
-eksiksiz ve güncel bir genel bakış için
-[rki.de/risikogebiete](https://rki.de/risikogebiete) adresini ziyaret
-edin.
+Bilgiler başlangıçta Robert Koch Enstitüsünün web sitesinden otomatik olarak
+toplanıyordu. Kaydedilmiş veriler artık güncellenmemektedir ve güncel seyahat
+bilgisi sunmaz.
 
-Riskli bölgelere yönelik mevcut seyahat kısıtlamaları, [Alman Federal
-Sağlık Bakanlığı’nın web
-sitesinde](https://www.bundesgesundheitsministerium.de/en/coronavirus/current-information-for-travellers)
-yayınlanmaktadır.
+Orijinal kaynaklar: [Robert Koch Enstitüsü](https://rki.de/risikogebiete) ve [Alman Federal Sağlık Bakanlığı](https://www.bundesgesundheitsministerium.de/en/).
 
 ## Veritabanı
 
@@ -62,7 +52,7 @@ Ayrıca, veritabanından ülkelere ait bilgilere doğrudan erişebilirsiniz.
 
 <p class="text-center my-5">
 
-<a href="assets/dist/db_countries_risk_tr.csv" class="btn btn-primary">Veritabanını
+<a href="{{ '/assets/dist/db_countries_risk_tr.csv' | relative_url }}" class="btn btn-primary">Veritabanını
 İndir (CSV)</a>
 
 </p>

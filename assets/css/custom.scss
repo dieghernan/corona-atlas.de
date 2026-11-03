@@ -19,3 +19,19 @@
 .legend.leaflet-control{
     margin-bottom:2.5rem;
 }
+
+@media (min-width: 992px) {
+  .about-person {
+    text-align: center;
+  }
+
+  .about-person .chulapa-avatar-size {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .about-person h3 {
+    text-align: center;
+  }
+}

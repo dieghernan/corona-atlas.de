@@ -2,27 +2,17 @@
 title: About Corona Atlas
 subtitle: von Heimweh getrieben | driven by homesickness 
 permalink: /about
+locale: en-US
 show_comments: false
-excerpt: |
-  April 2021. More than one year has passed since
-  this Corona nightmare put all our lives upside down
-  and things are only slowly changing
-  for the better in Europe.
-  Hopefully on the verge of a turning point for travel
-  restrictions within the EU thanks to the vaccination
-  campaign, everyone in Germany is looking forward to travelling abroad
-  again safely and we follow closer than ever the current restrictions
-  applying to foreign countries near and far.
+excerpt: "The story of Corona Atlas, a discontinued project by Diego and Rodrigo Hernangómez, with credits to its translators."
 leaflet: false
 ---
 
-
-<i class="fas fa-skull-crossbones"></i> **Project discontinued**
+<i class="fas fa-skull-crossbones"></i> **Historical archive. The project is discontinued and its data is no longer updated. The story below was written in April 2021.**
 {: .alert .alert-danger .p-3 .mx-2 .mb-3 .lead}
 
-
 April 2021. More than one year has passed since
-this Corona nightmare put all our lives upside down
+this Corona nightmare turned all our lives upside down
 and things are only slowly changing
 for the better in Europe.
 Hopefully on the verge of a turning point for travel
@@ -32,7 +22,7 @@ again safely and we follow closer than ever the current restrictions
 applying to foreign countries near and far.
 
 That is the moment we saw
-the need of a friendly and automated interface to the meticulous and ever-changing
+the need for a friendly and automated interface to the meticulous and ever-changing
 designations of the German authorities on the topic.
 And not only out of compassion for our beloved citizens
 in the Federal Republic of Germany, but also because the travel restrictions
@@ -43,13 +33,13 @@ Diego still lives in Spain while Rodrigo has been based
 in Germany for the last half decade.
 We yearn for the pre-corona times where EU-borders did not exist
 and cannot wait for the moment we will be able to have
-uncomplicated family meetings again with as few bureaucracy and
+uncomplicated family meetings again with as little bureaucracy and
 as much safety as possible. Until that becomes a reality,
 we have learned that a good coding project can keep us
 united in the distance.
 
 Whether it is _Heimweh_ or _Fernweh_ what brought you here,
-we want you to help you count down the days until
+we want to help you count down the days until
 your next big journey. Stay safe.
 
 ![corona-timelapse](https://dieghernan.github.io/corona-atlas.de/assets/img/corona_atlas_timelapse.gif)<i class="fas fa-link fa-lg"></i>_Read more about this animated chronology on [Diego's blog](https://dieghernan.github.io/202203_Corona-timelapse/)._
@@ -58,8 +48,8 @@ your next big journey. Stay safe.
 
 ---
 
-<aside class="my-4 small">
-  <div class="row d-flex align-items-center mb-2">
+<aside class="my-4 small about-person">
+  <div class="row d-flex align-items-center flex-lg-column mb-2">
     <img src="https://github.com/dieghernan.png" alt="dieghernan" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
       <h3 id="diego">Diego</h3>
@@ -73,6 +63,7 @@ your next big journey. Stay safe.
       </address>
       <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
         <a class="mr-2 mx-lg-1" href="https://github.com/dieghernan/"><i class="fab fa-github fa-lg"></i></a>
+        <a class="mr-2 mx-lg-1" href="https://orcid.org/0000-0001-8457-4658" aria-label="ORCID"><i class="fab fa-orcid" aria-hidden="true"></i></a>
         <a class="mr-2 mx-lg-1" href="https://twitter.com/dhernangomez"><i class="fab fa-twitter fa-lg"></i></a>
         <a class="mr-2 mx-lg-1" href="https://dieghernan.github.io/"><i class="fas fa-blog fa-lg"></i></a>
       </div>
@@ -83,7 +74,7 @@ your next big journey. Stay safe.
 
 Diego is an **R** geek and he is all about data
 and maps. He is also a fan of beautiful web design
-and a Jekyll-Bootstrap sage. Diego is responsible of all
+and a Jekyll-Bootstrap sage. Diego is responsible for all
 the map visualization of Corona Atlas
 and its underlying design based on
 his very own template,
@@ -97,8 +88,8 @@ or on his personal website:
 
 ---
 
-<aside class="my-4 small">
-  <div class="row d-flex align-items-center mb-2">
+<aside class="my-4 small about-person">
+  <div class="row d-flex align-items-center flex-lg-column mb-2">
     <img src="https://github.com/rodrihgh.png" alt="rodri" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
       <h3 id="rodrigo">Rodrigo</h3>
@@ -112,6 +103,7 @@ or on his personal website:
       </address>
       <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
         <a class="mr-2 mx-lg-1" href="https://github.com/rodrihgh/"><i class="fab fa-github fa-lg"></i></a>
+        <a class="mr-2 mx-lg-1" href="https://orcid.org/0000-0002-1284-4951" aria-label="ORCID"><i class="fab fa-orcid" aria-hidden="true"></i></a>
         <a class="mr-2 mx-lg-1" href="https://twitter.com/rodrihgh"><i class="fab fa-twitter fa-lg"></i></a>
         <a class="mr-2 mx-lg-1" href="https://uselessness.science/"><i class="fas fa-link fa-lg"></i></a>
       </div>
@@ -124,8 +116,8 @@ The younger brother prefers to entertain himself
 with **Python**, which serves him very well to play around in
 business and private matters with signal processing,
 artificial intelligence and nerdy math in general.
-Apart from reaching out Diego with the project's idea,
-Rodrigo has dedicated his efforts to scrap the data
+Apart from reaching out to Diego with the project's idea,
+Rodrigo has dedicated his efforts to scrape the data
 off the RKI website.
 Oh, he is also the one to blame if the German text
 _spanisch vorkommt_ in some places.
@@ -138,11 +130,11 @@ and their connection to art:
 
 ## Collaborators
 
-We thank the following people from the bottom of our heart for their help with
+We thank the following people from the bottom of our hearts for their help with
 the translation of the site:
 
-<aside class="my-4 small">
-  <div class="row d-flex align-items-center mb-2">
+<aside class="my-4 small about-person">
+  <div class="row d-flex align-items-center flex-lg-column mb-2">
     <img src="https://dieghernan.github.io/corona-atlas.de/assets/img/people/emmanuel.jpg" alt="Emmanuel" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
       <h3 id="emmanuel">Emmanuel</h3>
@@ -161,8 +153,8 @@ the translation of the site:
     </div>
   </div>
 </aside>
-<aside class="my-4 small">
-  <div class="row d-flex align-items-center mb-2">
+<aside class="my-4 small about-person">
+  <div class="row d-flex align-items-center flex-lg-column mb-2">
     <img src="https://dieghernan.github.io/corona-atlas.de/assets/img/people/natalia.jpg" alt="Natalia" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
       <h3 id="natalia">Natalia</h3>
@@ -181,8 +173,8 @@ the translation of the site:
     </div>
   </div>
 </aside>
-<aside class="my-4 small">
-  <div class="row d-flex align-items-center mb-2">
+<aside class="my-4 small about-person">
+  <div class="row d-flex align-items-center flex-lg-column mb-2">
     <img src="https://dieghernan.github.io/corona-atlas.de/assets/img/people/ege.jpg" alt="Ege" class="ml-3 mr-0 mx-lg-auto mb-lg-1 chulapa-avatar-size">
     <div class="col-9 col-lg-12 text-lg-center">
       <h3 id="ege">Ege</h3>
@@ -196,6 +188,7 @@ the translation of the site:
       </address>
       <div class="d-inline my-1 mx-lg-0 chulapa-links-hover-only">
         <a class="mr-2 mx-lg-1" href="https://github.com/egekorkan/"><i class="fab fa-github fa-lg"></i></a>
+        <a class="mr-2 mx-lg-1" href="https://orcid.org/0000-0003-4910-4962" aria-label="ORCID"><i class="fab fa-orcid" aria-hidden="true"></i></a>
         <a class="mr-2 mx-lg-1" href="https://twitter.com/egekorkan/"><i class="fab fa-twitter fa-lg"></i></a>
       </div>
       <img class="d-inline d-lg-block mt-lg-2" src="https://flagcdn.com/16x12/tr.png" srcset="https://flagcdn.com/32x24/tr.png 2x, https://flagcdn.com/48x36/tr.png 3x" width="16" height="12" alt="Turkey">
