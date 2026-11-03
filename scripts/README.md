@@ -60,6 +60,8 @@ About and the public profiles linked from it. Checked November 3, 2026.
 - Natalia Jedlikowska: [commit b507c0b](https://github.com/dieghernan/corona-atlas.de/commit/b507c0ba42ead1e234c82728ac3f3e086d962799)
   replaces her original `natalia.jedlikowska` Instagram link with
   `hiszpanski.cafecito`, establishing continuity between those profiles.
+  Her [Cafecito homepage](https://cafecito.pl/) independently states her full
+  name and describes her work teaching Spanish and translating.
 - Ege Korkan: his [GitHub profile](https://github.com/egekorkan) links his
   personal website, LinkedIn and ORCID 0000-0003-4910-4962. His repository
   commits also document the Turkish translation.
