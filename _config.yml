@@ -56,6 +56,8 @@ navbar:
       url: /tr
   - title   : About # Label
     url     : /about # url
+  - title: '<i class="fab fa-github mr-1" aria-hidden="true"></i> GitHub'
+    url: https://github.com/dieghernan/corona-atlas.de
 
 footer:
   links:
