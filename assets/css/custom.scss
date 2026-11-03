@@ -32,6 +32,16 @@
   }
 
   .about-person h3 {
+    display: inline-block;
+    position: relative;
     text-align: center;
+  }
+
+  .about-person h3 .chulapa-header-link {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
   }
 }
