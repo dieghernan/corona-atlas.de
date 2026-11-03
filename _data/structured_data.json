@@ -38,6 +38,18 @@
     "contributor": [
       {
         "@type": "Person",
+        "@id": "https://dieghernan.github.io/corona-atlas.de/about#emmanuel",
+        "name": "Emmanuel de Bourmont",
+        "sameAs": "https://www.linkedin.com/in/emmanuel-de-bourmont/"
+      },
+      {
+        "@type": "Person",
+        "@id": "https://dieghernan.github.io/corona-atlas.de/about#natalia",
+        "name": "Natalia",
+        "sameAs": "https://www.instagram.com/hiszpanski.cafecito/"
+      },
+      {
+        "@type": "Person",
         "name": "Ege Korkan",
         "sameAs": [
           "https://orcid.org/0000-0003-4910-4962",
