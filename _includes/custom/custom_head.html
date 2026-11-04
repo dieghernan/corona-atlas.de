@@ -14,6 +14,15 @@
 
 <!-- end custom head snippets -->
 
+{% assign atlas_paths = '/,/en,/es,/fr,/pl,/tr' | split: ',' %}
+{% if atlas_paths contains page.url %}
+{% assign atlas_languages = 'de,en,es,fr,pl,tr' | split: ',' %}
+{% for path in atlas_paths %}
+<link rel="alternate" hreflang="{{ atlas_languages[forloop.index0] }}" href="{{ path | absolute_url | escape }}">
+{% endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url | escape }}">
+{% endif %}
+
 {% if page.leaflet or page.url == '/about' %}
 <script type="application/ld+json">
 {{ site.data.structured_data.software | jsonify | replace: '<', '\u003c' }}
