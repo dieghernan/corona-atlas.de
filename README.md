@@ -11,8 +11,9 @@ or contact us directly
 
 Interactive map of the international COVID-19 risk areas as designated by the German authorities.
 
-The site preserves historical data collected from the [Robert Koch Institute][rki].
-It is no longer updated and does not provide current travel guidance.
+The site preserves a snapshot of [Robert Koch Institute][rki] data dated
+June 18, 2021. Each language version offers a CSV download of the archived
+classifications. The project is closed and the data reflects that snapshot.
 
 The original scraper collected data using **Python** and
 [**Scrapy**](https://scrapy.org/).
