@@ -5,8 +5,8 @@
 and its white and blue palette. It identifies the project as a historical
 archive and preserves the Diego & Rodrigo credit. The map colors represent
 historical risk designations, not current travel guidance.
-`social-card-en.html` provides the English composition for the GitHub banner;
-the Open Graph image uses the German composition in `social-card.html`.
+`social-card-en.html` provides the English composition for the GitHub banner.
+The Open Graph image uses the German composition in `social-card.html`.
 
 The saved map contains CARTO basemap imagery. Its attribution remains on the
 cards, even though the interactive map now uses OpenStreetMap. The old map is
@@ -30,7 +30,7 @@ The outputs are `assets/img/social-preview.jpg` at 1200 × 630 and
 `assets/img/github-preview.jpg` at 1280 × 640. The renderer waits for the local
 fonts and map to load and uses a device scale factor of 1. Inspect both images
 after changing the composition. The GitHub image is ready to upload under
-Settings → General → Social preview; committing the file alone does not set it.
+Settings → General → Social preview.
 
 # Site maintenance
 
@@ -44,11 +44,11 @@ bundle exec jekyll build
 The Pages workflow builds once, deploys the Pages artifact and copies the same
 artifact to `gh-pages`. Configure GitHub Pages to use GitHub Actions before
 deploying this workflow. The four data and GIF workflows remain disabled in
-GitHub; publishing the historical site does not require running them.
+GitHub. The Pages workflow publishes the historical site independently.
 
 Keep translated page metadata in `_pages/index*.md` synchronized with its
 source in `_R/index*.Rmd`. The disabled R pipeline still generates the old
-`og_corona_atlas.png`; it does not overwrite the new sharing images.
+`og_corona_atlas.png`. The sharing images have their own renderer.
 
 ## Contributor identity sources
 

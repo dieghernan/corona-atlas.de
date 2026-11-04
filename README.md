@@ -1,4 +1,4 @@
-#  Project discontinued
+# Project discontinued
 
 # Corona Atlas <img src="assets/img/corona-atlas-icon.png" align="right" width="120"/>
 
@@ -14,14 +14,17 @@ Interactive map of the international COVID-19 risk areas as designated by the Ge
 The site preserves historical data collected from the [Robert Koch Institute][rki].
 It is no longer updated and does not provide current travel guidance.
 
-Data scraping is performed on **Python** with
-[**scrapy**](https://scrapy.org/).
+The original scraper collected data using **Python** and
+[**Scrapy**](https://scrapy.org/).
 The scraper also uses
 [**pandas**](https://pandas.pydata.org/) and
 [**pycountry**](https://pypi.org/project/pycountry/).
 
-Map visualization is created with **R** and generates a map via [{rmarkdown}](https://rmarkdown.rstudio.com/). The map is created using [{leaflet}](http://rstudio.github.io/leaflet/), [{giscoR}](https://dieghernan.github.io/giscoR/) and some packages included on the [tidyverse](https://www.tidyverse.org/).
- 
+The original **R** pipeline rendered the map with
+[**rmarkdown**](https://rmarkdown.rstudio.com/),
+[**leaflet**](http://rstudio.github.io/leaflet/),
+[**giscoR**](https://dieghernan.github.io/giscoR/) and packages from the
+[**tidyverse**](https://www.tidyverse.org/).
 The website uses [**Chulapa**](https://dieghernan.github.io/chulapa/)
 as its Jekyll theme.
 
@@ -46,4 +49,4 @@ as its Jekyll theme.
 
 See [the maintenance and social-card instructions](scripts/README.md) for local
 builds, sharing images and the Pages workflow. The interactive map uses
-OpenStreetMap; the historical risk designations remain unchanged.
+OpenStreetMap and displays the historical risk designations.
