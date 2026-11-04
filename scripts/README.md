@@ -9,10 +9,10 @@ historical risk designations, not current travel guidance.
 The Open Graph image uses the German composition in `social-card.html`.
 
 The saved map contains CARTO basemap imagery. Its attribution remains on the
-cards, even though the interactive map now uses OpenStreetMap. The old map is
+cards, even though the interactive map now uses **OpenStreetMap**. The old map is
 reused without making tile requests. Fonts are bundled with their OFL licenses.
 
-To regenerate the JPEG files with Python and Playwright:
+To regenerate the JPEG files with **Python** and **Playwright**.
 
 ```sh
 py -m pip install playwright
@@ -20,7 +20,7 @@ py -m playwright install chromium
 py scripts/render_social.py
 ```
 
-An existing Chromium browser can also be used without downloading another:
+You can use an existing **Chromium** browser.
 
 ```powershell
 py scripts/render_social.py --executable "C:/Program Files/Google/Chrome/Application/chrome.exe"
@@ -34,7 +34,7 @@ Settings → General → Social preview.
 
 # Site maintenance
 
-Use Ruby 3.4 and Bundler to install dependencies and build the site:
+Use **Ruby** 3.4 and **Bundler** to install dependencies and build the site.
 
 ```sh
 bundle install

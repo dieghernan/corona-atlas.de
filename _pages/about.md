@@ -28,7 +28,7 @@ And not only out of compassion for our beloved citizens
 in the Federal Republic of Germany, but also because the travel restrictions
 to and from Germany directly affect us, the developers of the Corona Atlas Website.
 
-Our names are Diego and Rodrigo. We are two Spanish brothers;
+Our names are Diego and Rodrigo. We are two Spanish brothers.
 Diego still lives in Spain while Rodrigo has been based
 in Germany for the last half decade.
 We yearn for the pre-corona times where EU-borders did not exist
@@ -74,11 +74,11 @@ your next big journey. Stay safe.
 
 Diego is an **R** geek and he is all about data
 and maps. He is also a fan of beautiful web design
-and a Jekyll-Bootstrap sage. Diego is responsible for all
+and a **Jekyll-Bootstrap** sage. Diego is responsible for all
 the map visualization of Corona Atlas
 and its underlying design based on
 his very own template,
-[Chulapa](https://dieghernan.github.io/chulapa/).
+[**Chulapa**](https://dieghernan.github.io/chulapa/).
 
 You can check Diego's other awesome projects
 on [GitHub](https://github.com/dieghernan)
