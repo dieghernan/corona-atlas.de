@@ -13,7 +13,7 @@ output:
 ---
 
 **Projekt eingestellt. Historisches Archiv; keine aktuellen Reiseinformationen.**
-{: .alert .alert-warning .p-3 .mx-2 .mb-3 .lead}
+{: .callout-warning role="note" aria-label="Warnung" style="--chulapa-callout-title: 'Warnung'"}
 
 <!-- Source: _R/index.Rmd -->
 

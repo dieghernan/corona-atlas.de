@@ -13,7 +13,7 @@ output:
 ---
 
 **Projekt zakończony. Archiwum historyczne; brak aktualnych informacji dla podróżnych.**
-{: .alert .alert-warning .p-3 .mx-2 .mb-3 .lead}
+{: .callout-warning role="note" aria-label="Ostrzeżenie" style="--chulapa-callout-title: 'Ostrzeżenie'"}
 
 <!-- Source: _R/index_pl.Rmd -->
 

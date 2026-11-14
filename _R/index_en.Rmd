@@ -13,7 +13,7 @@ output:
 ---
 
 **Project discontinued. Historical archive; no current travel guidance.**
-{: .alert .alert-warning .p-3 .mx-2 .mb-3 .lead}
+{: .callout-warning role="note" aria-label="Warning"}
 
 <!-- Source: _R/index_en.Rmd -->
 

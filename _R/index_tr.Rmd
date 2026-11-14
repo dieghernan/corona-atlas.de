@@ -13,7 +13,7 @@ output:
 ---
 
 **Proje sonlandırıldı. Tarihsel arşiv; güncel seyahat bilgisi sunmaz.**
-{: .alert .alert-warning .p-3 .mx-2 .mb-3 .lead}
+{: .callout-warning role="note" aria-label="Uyarı" style="--chulapa-callout-title: 'Uyarı'"}
 
 <!-- Source: _R/index_tr.Rmd -->
 

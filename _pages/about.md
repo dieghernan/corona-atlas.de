@@ -8,8 +8,8 @@ excerpt: "The story of Corona Atlas, a discontinued project by Diego and Rodrigo
 leaflet: false
 ---
 
-<i class="fas fa-skull-crossbones"></i> **Historical archive. The project is discontinued and its data is no longer updated. The story below was written in April 2021.**
-{: .alert .alert-danger .p-3 .mx-2 .mb-3 .lead}
+**Historical archive. The project is discontinued and its data is no longer updated. The story below was written in April 2021.**
+{: .callout-important role="note" aria-label="Important"}
 
 April 2021. More than one year has passed since
 this Corona nightmare turned all our lives upside down

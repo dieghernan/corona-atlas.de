@@ -13,7 +13,7 @@ output:
 ---
 
 **Proyecto finalizado. Archivo histórico; no ofrece información de viaje actual.**
-{: .alert .alert-warning .p-3 .mx-2 .mb-3 .lead}
+{: .callout-warning role="note" aria-label="Advertencia"}
 
 <!-- Source: _R/index_es.Rmd -->
 
