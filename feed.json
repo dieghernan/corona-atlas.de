@@ -1,0 +1,16 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Corona Atlas",
+  "home_page_url": "https://dieghernan.github.io/corona-atlas.de/",
+  "feed_url": "https://dieghernan.github.io/corona-atlas.de/feed.json",
+  "language": "de-DE",
+  "description": "Historisches Archiv der von deutschen Behörden ausgewiesenen internationalen COVID-19-Risikogebiete. Das Projekt ist eingestellt und wird nicht aktualisiert.",
+  "icon": "https://dieghernan.github.io/corona-atlas.de/assets/img/social-preview.jpg",
+  "favicon": "https://dieghernan.github.io/corona-atlas.de/assets/img/corona-atlas-icon.svg",
+  "authors": [{
+    "name": "Diego & Rodrigo"
+  }],
+  "items": [
+    
+  ]
+}
